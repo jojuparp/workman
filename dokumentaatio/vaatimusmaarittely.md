@@ -29,7 +29,7 @@ Pääkäyttäjän toiminnallisuuksiin kuuluu
 
 ### Käyttöliittymäluonnokset 
 
-ks. kuvakansio *linkki tähän*
+ks. [nämä kuvat](https://github.com/jojuparp/workman/tree/master/dokumentaatio/kuvat/kayttoliittyma-luonnostelma)
 
 ### Jatkokehitysideoita
 
