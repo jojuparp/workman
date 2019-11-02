@@ -2,7 +2,7 @@ import React from 'react'
 import { useField } from '../hooks/index'
 import { Form, Button } from 'react-bootstrap'
 
-const LoginForm = () => {
+const LoginForm = ({ handleLogin }) => {
 
   const un = useField('text')
   const pw = useField('password')
@@ -10,7 +10,7 @@ const LoginForm = () => {
   return (
     <div className='container'>
       <h2>Login</h2>
-      <Form >
+      <Form onSubmit={handleLogin}>
         <Form.Group>
           <Form.Label>username:</Form.Label>
           <Form.Control

@@ -44,7 +44,6 @@ module.exports = {
         ],
         "no-console": 0,
         "react/prop-types": 0,
-        "react-hooks/rules-of-hooks": "error"
     }
   };
 
