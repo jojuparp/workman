@@ -4,6 +4,10 @@ import { Form, Button } from 'react-bootstrap'
 
 const LoginForm = ({ handleLogin }) => {
 
+  const buttonStyle =  {
+    marginTop: 10
+  }
+
   const un = useField('text')
   const pw = useField('password')
 
@@ -20,7 +24,7 @@ const LoginForm = ({ handleLogin }) => {
           <Form.Control
             {...pw}
           />
-          <Button variant="primary" type="submit">
+          <Button style={buttonStyle} variant="primary" type="submit">
             login
           </Button>
         </Form.Group>

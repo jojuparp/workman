@@ -17,9 +17,6 @@ const App = () => {
       {!login ? <LoginForm handleLogin={handleLogin}/>
         : <Menu handleLogin={handleLogin}/>}
 
-
-
-
     </div>
   )
 }

@@ -9,15 +9,15 @@ export const users = [
   },
 
   {
-    username: 'jojuparp',
-    name: 'Joni Parpala',
+    username: 'vesal',
+    name: 'Vesa Lappilainen',
     id: 2,
 
   },
 
   {
-    username: 'jojuparp',
-    name: 'Joni Parpala',
+    username: 'eeppi',
+    name: 'Esko Jooseppi',
     id: 3,
 
   }
@@ -28,22 +28,40 @@ export const works = [
   {
     type: 'asennustehtävä',
     importance: 2,
-    adress: 'rantaraitti 1',
-    allocated: false
+    address: 'rantaraitti 1',
+    allocated: true,
+    description: 'putki pitää asentaa',
+    completed: true,
+    startDate: Date,
+    endDate: Date,
+    time: null,
+    id: 1
   },
 
   {
     type: 'tarkistuskäynti',
     importance: 3,
-    adress: 'rantaraitti 1',
-    allocated: true
+    address: 'rantaraitti 1',
+    description: 'putki pitää asentaa',
+    completed: false,
+    allocated: true,
+    startDate: Date,
+    endDate: Date,
+    time: null,
+    id: 2
   },
 
   {
     type: 'korjaustehtävä',
     importance: 1,
-    adress: 'rantaraitti 1',
-    allocated: false
+    address: 'rantaraitti 1',
+    description: 'putki pitää asentaa',
+    completed: true,
+    allocated: false,
+    startDate: Date,
+    endDate: Date,
+    time: null,
+    id: 3
   },
 
 ]
