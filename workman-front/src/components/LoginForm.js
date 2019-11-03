@@ -18,11 +18,14 @@ const LoginForm = ({ handleLogin }) => {
         <Form.Group>
           <Form.Label>username:</Form.Label>
           <Form.Control
-            {...un}
+            value={un.value}
+            onChange={un.onChange}
           />
           <Form.Label>password:</Form.Label>
           <Form.Control
-            {...pw}
+            type={pw.type}
+            value={pw.value}
+            onChange={pw.onChange}
           />
           <Button style={buttonStyle} variant="primary" type="submit">
             login

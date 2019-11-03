@@ -2,20 +2,20 @@ import React from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { useField } from '../hooks/index'
 
-const WorkForm = () => {
+const ModifyView = ({ work }) => {
 
   const content = useField()
 
-  const addJob = () => {
-    console.log('added!')
+  const modify = () => {
+    console.log(work)
     content.reset()
   }
 
   return (
     <div>
-      <h2>Lisää uusi työkeikka</h2>
+      <h2>Muokkaa työtehtävää</h2>
 
-      <Form onSubmit={addJob}>
+      <Form onSubmit={modify}>
         <Form.Group>
           <Form.Label>Tehtävän tyyppi:</Form.Label>
           <Form.Control
@@ -39,11 +39,11 @@ const WorkForm = () => {
           />
         </Form.Group>
       </Form>
-      <Button onClick={addJob} variant='primary' type='submit'>
+      <Button onClick={modify} variant='primary' type='submit'>
               Tallenna
       </Button>
     </div>
   )
 }
 
-export default WorkForm
+export default ModifyView

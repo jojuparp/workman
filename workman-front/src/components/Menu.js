@@ -13,6 +13,8 @@ import WorkList from './WorkList'
 import WorkView from './WorkView'
 import WorkForm from './WorkForm'
 import WorkStarted from './WorkStarted'
+import ModifyView from './ModifyView'
+import WorkCompleted from './WorkCompleted'
 
 const Menu = ({ handleLogin }) => {
 
@@ -46,6 +48,12 @@ const Menu = ({ handleLogin }) => {
           }/>
           <Route exact path="/tyotehtavat/:id/aloitettu" render={({ match }) =>
             <WorkStarted work={workById(match.params.id)} />
+          }/>
+          <Route exact path="/tyotehtavat/:id/muokkaa" render={({ match }) =>
+            <ModifyView work={workById(match.params.id)} />
+          }/>
+          <Route exact path="/tyotehtavat/:id/valmis" render={({ match }) =>
+            <WorkCompleted work={workById(match.params.id)} />
           }/>
           <Route exact path="/osat" render={() => <PartList />} />
         </div>
