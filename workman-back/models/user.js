@@ -11,11 +11,7 @@ const schema = new mongoose.Schema({
     type: String,
     minlength: 5
   },
-  password: {
-    type: String,
-    required: true,
-    minlength: 5
-  },
+  passwordHash: String,
   admin: {
     type: Boolean,
     required: true,
