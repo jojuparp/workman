@@ -1,24 +1,24 @@
-const JobType = require('../models/jobType')
+const Part = require('../models/part')
 const { UserInputError } = require('apollo-server')
 
 const typeDefs = `
 
-type JobType {
+type Part {
   name: String!
-  hourlyRate: Float!
+  price: Float!
 }
 
 extend type Query {
 
-  jobTypeCount: Int!
+  partCount: Int!
 }
 
 extend type Mutation {
 
-  createJobType(
+  createPart(
     name: String!
-    hourlyRate: Float!
-  ): JobType
+    price: Float!
+  ): Part
 }
 `
 
@@ -26,13 +26,13 @@ const resolvers = {
   
   Query: {
 
-    jobTypeCount: () => JobType.collection.countDocuments(),
+    partCount: () => Part.collection.countDocuments(),
   },
 
   Mutation: {
 
-    createJobType: (root, args) => {
-      const jobType = new JobType({ ...args })
+    createPart: (root, args) => {
+      const jobType = new Part({ ...args })
   
       return jobType.save()
         .catch(error => {
