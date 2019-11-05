@@ -22,15 +22,12 @@ const schema = new mongoose.Schema({
   },
   startDate: {
     type: Date,
-    required: true
   },
   endDate: {
     type: Date,
-    required: true
   },
   totalTime: {
     type: Number,
-    required: true
   },
   completed: {
     type: Boolean,

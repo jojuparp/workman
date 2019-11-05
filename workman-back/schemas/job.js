@@ -1,17 +1,28 @@
-const Job = require('../models/job')
 const { UserInputError } = require('apollo-server')
+const {
+  GraphQLDate,
+  GraphQLTime,
+  GraphQLDateTime
+} = require('graphql-iso-date')
 
-const JobType = require('./jobType')
-const Part = require('./part')
-const User = require('./user')
+//models
+const Job = require('../models/job')
+const User = require('../models/user')
+const JobType = require('../models/jobType')
+const Part = require('../models/part')
+
+//shcemas
+const jobType = require('./jobType')
+const part = require('./part')
+const user = require('./user')
 
 const typeDefs = `
 
-${JobType.typeDefs}
+${jobType.typeDefs}
 
-${Part.typeDefs}
+${part.typeDefs}
 
-${User.typeDefs}
+${user.typeDefs}
 
 type Job {
 
@@ -20,8 +31,8 @@ type Job {
   partsUsed: [Part!]
   address: String!
   description: String!
-  startDate: Date!
-  endDate: Date!
+  startDate: String
+  endDate: String
   completed: Boolean!
 
 }
@@ -34,17 +45,16 @@ extend type Query {
 extend type Mutation {
 
   createJob(
-
-  type: JobType!
-  users: [User!]
-  partsUsed: [Part!]
-  address: String!
-  description: String!
-  startDate: Date!
-  endDate: Date!
-  completed: Boolean!
-
+    type: String!
+    users: [String!]
+    partsUsed: [String!]
+    address: String!
+    description: String!
+    startDate: String
+    endDate: String
+    completed: Boolean!
   ): Job
+
 }
 `
 
@@ -52,12 +62,12 @@ const resolvers = {
   
   Query: {
 
-    jobTypeCount: () => Job.collection.countDocuments(),
+    jobCount: () => Job.collection.countDocuments(),
   },
 
   Mutation: {
 
-    createJobType: (root, args) => {
+    createJob: (root, args) => {
       const job = new Job({ ...args })
   
       return job.save()
