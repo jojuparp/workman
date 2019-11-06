@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button, Form, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import {
   BrowserRouter as Router,
   Route, Link, Redirect, withRouter
@@ -15,11 +16,13 @@ import WorkForm from './WorkForm'
 import WorkStarted from './WorkStarted'
 import ModifyView from './ModifyView'
 import WorkCompleted from './WorkCompleted'
+import UserForm from './UserForm'
+import WorkTypeForm from './WorkTypeForm'
 
 const Menu = ({ handleLogin }) => {
 
   const padding = {
-    padding: 5
+    padding: 5,
   }
 
   const workById = id => {
@@ -31,17 +34,43 @@ const Menu = ({ handleLogin }) => {
       <Router>
         <div>
           <div>
-            Joni kirjautunut
-            <Link style={padding} to="/">Koti</Link>
-            <Link style={padding} to="/tyotehtavat">Kaikki työtehtävät</Link>
-            <Link style={padding} to="/uusitehtava">Lisää työkeikka</Link>
-            <Link style={padding} to="/osat">Osat</Link>
-            <Link style={padding} to="/tyontekijat">Työntekijät</Link>
-            <button style={padding} onClick={handleLogin}>Logout</button>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                  <Nav.Link href="#" as="span">
+                    <Link style={padding} to="/">Koti</Link>
+                  </Nav.Link>
+                  <Nav.Link href="#" as="span">
+                    <Link style={padding} to="/tyotehtavat">Kaikki työtehtävät</Link>
+                  </Nav.Link>
+                  <Nav.Link href="#" as="span">
+                    <Link style={padding} to="/tyontekijat">Työntekijät</Link>
+                  </Nav.Link>
+                  <Nav.Link href="#" as="span">
+                    <Link style={padding} to="/osat">Osat</Link>
+                  </Nav.Link>
+                  <NavDropdown title="Lisää" bg="dark" variant="dark">
+                    <Nav.Link href="#" as="span">
+                      <Link style={padding} to="/uusitehtava">Uusi työtehtävä</Link>
+                    </Nav.Link>
+                    <Nav.Link href="#" as="span">
+                      <Link style={padding} to="/uusitehtavatyyppi">Uusi työtehtävätyyppi</Link>
+                    </Nav.Link>
+                    <Nav.Link href="#" as="span">
+                      <Link style={padding} to="/uusikayttaja">Uusi käyttäjä</Link>
+                    </Nav.Link>
+                  </NavDropdown>
+
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
           </div>
           <Route exact path="/" render={() => <AdminView />} />
           <Route exact path="/tyontekijat" render={() => <UserList />} />
           <Route exact path="/uusitehtava" render={() => <WorkForm />} />
+          <Route exact path="/uusitehtavatyyppi" render={() => <WorkTypeForm />} />
+          <Route exact path="/uusikayttaja" render={() => <UserForm />} />
           <Route exact path="/tyotehtavat" render={() => <WorkList />} />
           <Route exact path="/tyotehtavat/:id" render={({ match }) =>
             <WorkView work={workById(match.params.id)} />

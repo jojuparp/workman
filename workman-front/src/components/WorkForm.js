@@ -37,6 +37,11 @@ const WorkForm = () => {
             value={content.value}
             onChange={content.onChange}
           />
+          <Form.Label>Tehtävän työntekijät:</Form.Label>
+          <Form.Control
+            value={content.value}
+            onChange={content.onChange}
+          />
         </Form.Group>
       </Form>
       <Button onClick={addJob} variant='primary' type='submit'>
