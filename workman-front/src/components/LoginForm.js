@@ -17,8 +17,6 @@ const LoginForm = ({ login, setToken }) => {
     const username = un.value
     const password = pw.value
 
-    console.log(username, password)
-
     const result = await login({
       variables: { username, password }
     })

@@ -19,7 +19,6 @@ const App = () => {
   const currentUser = useQuery(CURRENT_USER)
 
   const [login] = useMutation(LOGIN, {
-    refetchQueries:[{ query: currentUser }],
     onError: handleError
   })
 

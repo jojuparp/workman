@@ -6,6 +6,7 @@ const typeDefs = `
 type Part {
   name: String!
   price: Float!
+  id: ID!
 }
 
 extend type Query {

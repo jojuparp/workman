@@ -1,4 +1,4 @@
-const { UserInputError } = require('apollo-server')
+const { UserInputError, AuthenticationError } = require('apollo-server')
 const {
   GraphQLDate,
   GraphQLTime,
@@ -34,6 +34,7 @@ type Job {
   startDate: String
   endDate: String
   completed: Boolean!
+  id: ID!
 
 }
 
@@ -52,7 +53,7 @@ extend type Mutation {
     description: String!
     startDate: String
     endDate: String
-    completed: Boolean!
+    completed: Boolean
   ): Job
 
 }
@@ -67,9 +68,16 @@ const resolvers = {
 
   Mutation: {
 
-    createJob: (root, args) => {
-      const job = new Job({ ...args })
+    createJob: async (root, args, { currentUser }) => {
+
+      if (!currentUser) {
+        throw new AuthenticationError('not authenticated')
+      }
+
+      const result = await JobType.findOne({ name: args.type })
   
+      const job = new Job({...args, type: result._id})
+
       return job.save()
         .catch(error => {
           throw new UserInputError(error.message, {
