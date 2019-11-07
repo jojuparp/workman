@@ -3,6 +3,8 @@ const jwt = require('jsonwebtoken')
 const { ApolloServer } = require('apollo-server')
 const mongoose = require('mongoose')
 
+mongoose.set('useUnifiedTopology', true)
+
 const User = require('./models/user')
 
 const Schema = require('./schema').schema

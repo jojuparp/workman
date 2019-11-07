@@ -1,6 +1,5 @@
 const { merge } = require('lodash') 
 const { makeExecutableSchema } = require('graphql-tools')
-const { mergeSchemas } = require('apollo-server')
 
 const user = require('./schemas/user')
 const jobType = require('./schemas/jobType')

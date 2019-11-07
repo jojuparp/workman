@@ -2,7 +2,7 @@ import React from 'react'
 import { useField } from '../hooks/index'
 import { Form, Button } from 'react-bootstrap'
 
-const LoginForm = ({ handleLogin }) => {
+const LoginForm = ({ login, setToken }) => {
 
   const buttonStyle =  {
     marginTop: 10
@@ -11,10 +11,29 @@ const LoginForm = ({ handleLogin }) => {
   const un = useField('text')
   const pw = useField('password')
 
+  const submit = async (event) => {
+    event.preventDefault()
+
+    const username = un.value
+    const password = pw.value
+
+    console.log(username, password)
+
+    const result = await login({
+      variables: { username, password }
+    })
+
+    if (result) {
+      const token = result.data.login.value
+      setToken(token)
+      localStorage.setItem('workman-user-token', token)
+    }
+  }
+
   return (
     <div className='container'>
       <h2>Login</h2>
-      <Form onSubmit={handleLogin}>
+      <Form onSubmit={submit}>
         <Form.Group>
           <Form.Label>username:</Form.Label>
           <Form.Control

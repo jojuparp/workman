@@ -19,7 +19,11 @@ import WorkCompleted from './WorkCompleted'
 import UserForm from './UserForm'
 import WorkTypeForm from './WorkTypeForm'
 
-const Menu = ({ handleLogin }) => {
+const Menu = ({ setToken, result }) => {
+
+  if (result.loading) {
+    return <div>loading...</div>
+  }
 
   const padding = {
     padding: 5,
@@ -50,6 +54,7 @@ const Menu = ({ handleLogin }) => {
                   <Nav.Link href="#" as="span">
                     <Link style={padding} to="/osat">Osat</Link>
                   </Nav.Link>
+
                   <NavDropdown title="Lisää" bg="dark" variant="dark">
                     <Nav.Link href="#" as="span">
                       <Link style={padding} to="/uusitehtava">Uusi työtehtävä</Link>
@@ -62,10 +67,19 @@ const Menu = ({ handleLogin }) => {
                     </Nav.Link>
                   </NavDropdown>
 
+                  <Nav.Link href="#" as="span">
+                    {result.data.me.name} kirjautunut
+                  </Nav.Link>
+
+                  <Button onClick={() => setToken(null)} variant="primary" type="submit">
+                    logout
+                  </Button>
+
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
           </div>
+
           <Route exact path="/" render={() => <AdminView />} />
           <Route exact path="/tyontekijat" render={() => <UserList />} />
           <Route exact path="/uusitehtava" render={() => <WorkForm />} />
@@ -85,6 +99,7 @@ const Menu = ({ handleLogin }) => {
             <WorkCompleted work={workById(match.params.id)} />
           }/>
           <Route exact path="/osat" render={() => <PartList />} />
+
         </div>
       </Router>
     </div>

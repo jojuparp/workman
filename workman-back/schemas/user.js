@@ -1,6 +1,7 @@
 const { UserInputError } = require('apollo-server')
 const User = require('../models/user')
 const jwt = require('jsonwebtoken')
+const bcrypt = require('bcrypt')
 
 const typeDefs =`
 
@@ -35,6 +36,7 @@ extend type Mutation {
 
   createUser(
     username: String!
+    password: String!
     name: String!
     admin: Boolean!
   ): User
@@ -59,8 +61,16 @@ const resolvers = {
 
   Mutation: {
 
-    createUser: (root, args) => {
-      const user = new User({ ...args })
+    createUser: async (root, args) => {
+
+      if ( args.password.length < 5 ) {
+        throw new UserInputError('password too short!')
+      }
+
+      const saltRounds = 10
+      const passwordHash = await bcrypt.hash(args.password, saltRounds)
+
+      const user = new User({ ...args, passwordHash })
   
       return user.save()
         .catch(error => {
@@ -72,8 +82,12 @@ const resolvers = {
 
     login: async (root, args) => {
       const user = await User.findOne({ username: args.username })
-  
-      if ( !user || args.password !== 'secret' ) {
+
+      const passwordCorrect = user === null
+        ? false
+        : await bcrypt.compare(args.password, user.passwordHash)
+
+      if (!(user && passwordCorrect)) {
         throw new UserInputError('wrong credentials')
       }
   

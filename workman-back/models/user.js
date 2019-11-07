@@ -9,7 +9,8 @@ const schema = new mongoose.Schema({
   },
   name: {
     type: String,
-    minlength: 5
+    minlength: 5,
+    required: true
   },
   passwordHash: String,
   admin: {
