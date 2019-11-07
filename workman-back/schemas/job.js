@@ -41,6 +41,8 @@ type Job {
 extend type Query {
 
   jobCount: Int!
+
+  allJobs: [Job!]!
 }
 
 extend type Mutation {
@@ -64,6 +66,13 @@ const resolvers = {
   Query: {
 
     jobCount: () => Job.collection.countDocuments(),
+
+    allJobs: async () => {
+      const jobs = await Job.find({})
+        .populate('type')
+      return jobs
+    }
+
   },
 
   Mutation: {
@@ -74,16 +83,25 @@ const resolvers = {
         throw new AuthenticationError('not authenticated')
       }
 
-      const result = await JobType.findOne({ name: args.type })
-  
-      const job = new Job({...args, type: result._id})
+      const type = await JobType.findOne({ name: args.type })
 
-      return job.save()
+      const job = new Job({ ...args, type: type._id, })
+
+      const savedJob = await job.save()
         .catch(error => {
           throw new UserInputError(error.message, {
             invalidArgs: args,
           })
         })
+
+      if (args.user) {
+        const user = await User.findOne({ username: args.users })
+        job.users = job.users.concat(user._id)
+
+        user.jobs = user.jobs.concat(savedJob._id)
+      }
+
+      return savedJob
     }
   }
 
