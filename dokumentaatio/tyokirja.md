@@ -7,5 +7,6 @@ Päivä | Aika | Mitä tein
 4.11 | 5 | - Lisätty skeemat <br> - Refaktoroitu graphql-kyselyt ja -resolverit omiin tiedostoihinsa <br>
 5.11. | 2 | - Lisätty lisää graphql-skeemoja <br> - Refaktoroitu koodia
 6.11. | 1 | - Lisätty komponentteja fronttiin <br> - Lisätty tyylejä
-7.11. | 4 | - Lisätty salasanan kryptaus <br> - Lisätty kirjautuminen frontendiin <br> - Aloitettu graphql-kysely työtehtävän lisäämiselle
-yht. | 22 |
+7.11. | 4 | - Lisätty salasanan kryptaus <br> - Lisätty kirjautuminen frontendiin <br> - Aloitettu graphql-mutaatio työtehtävän lisäämiselle
+8.11. | 4 | - Viimeistelty mutaatio työtehtävän lisäämiselle - <br> - Aloitettu mutaatio työtehtävän tilan muokkaamiselle
+yht. | 26 |
