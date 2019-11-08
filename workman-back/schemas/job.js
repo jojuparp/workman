@@ -86,22 +86,27 @@ const resolvers = {
       const type = await JobType.findOne({ name: args.type })
 
       const job = new Job({ ...args, type: type._id, })
+      job.users = job.users.concat(user._id)
 
-      const savedJob = await job.save()
+      await job.save()
         .catch(error => {
           throw new UserInputError(error.message, {
             invalidArgs: args,
           })
         })
 
-      if (args.user) {
+      if (args.users) {
         const user = await User.findOne({ username: args.users })
-        job.users = job.users.concat(user._id)
-
-        user.jobs = user.jobs.concat(savedJob._id)
+        user.jobs = user.jobs.concat(job._id)
+        await user.save()
+          .catch(error => {
+            throw new UserInputError(error.message, {
+              invalidArgs: args,
+            })
+          })
       }
 
-      return savedJob
+      return job
     }
   }
 
