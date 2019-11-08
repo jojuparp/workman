@@ -4,6 +4,8 @@ const {
   GraphQLTime,
   GraphQLDateTime
 } = require('graphql-iso-date')
+const mongoose = require('mongoose')
+const ObjectID = require('mongodb').ObjectID
 
 //models
 const Job = require('../models/job')
@@ -58,6 +60,10 @@ extend type Mutation {
     completed: Boolean
   ): Job
 
+  setJobCompleted(
+    id: String!
+  ): Job!
+
 }
 `
 
@@ -85,7 +91,7 @@ const resolvers = {
 
       const type = await JobType.findOne({ name: args.type })
 
-      const job = new Job({ ...args, type: type._id, })
+      const job = new Job({ ...args, type: type._id, completed: false })
       job.users = job.users.concat(user._id)
 
       await job.save()
@@ -107,6 +113,36 @@ const resolvers = {
       }
 
       return job
+    },
+
+    setJobCompleted: async (root, args, { currentUser }) => {
+
+      if (!currentUser) {
+        throw new AuthenticationError('not authenticated')
+      }
+
+      const jobToEdit = await Job.findById(args.id)
+
+      jobToEdit.completed = true
+      
+      //etsitään kaikki käyttäjät, joilla töiden listassa annettu id
+      const usersToEdit = await User.find({ jobs: { $in: args.id } })
+      console.log(usersToEdit)
+
+      //KESKEN!
+      usersToEdit.map(async user => {
+        user.jobs.filter(job => job !== args.id)
+        await user.save()
+      })
+
+      await jobToEdit.save()
+        .catch(error => {
+          throw new UserInputError(error.message, {
+            invalidArgs: args,
+          })
+        })
+
+      return jobToEdit
     }
   }
 
