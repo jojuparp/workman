@@ -9,4 +9,5 @@ Päivä | Aika | Mitä tein
 6.11. | 1 | - Lisätty komponentteja fronttiin <br> - Lisätty tyylejä
 7.11. | 4 | - Lisätty salasanan kryptaus <br> - Lisätty kirjautuminen frontendiin <br> - Aloitettu graphql-mutaatio työtehtävän lisäämiselle
 8.11. | 4 | - Viimeistelty mutaatio työtehtävän lisäämiselle - <br> - Aloitettu mutaatio työtehtävän tilan muokkaamiselle
-yht. | 26 |
+9.11. | 4 | - Viimeistelty ja lisätty mutaatioita
+yht. | 30 |

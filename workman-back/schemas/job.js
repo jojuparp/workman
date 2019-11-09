@@ -69,6 +69,11 @@ extend type Mutation {
     userIds: [String!]
   ): Job!
 
+  removeAssignment(
+    jobId: String!
+    userIds: String!
+  ): Job!
+
 }
 `
 
@@ -81,6 +86,7 @@ const resolvers = {
     allJobs: async () => {
       const jobs = await Job.find({})
         .populate('type')
+        .populate('user')
       return jobs
     }
 
@@ -163,12 +169,33 @@ const resolvers = {
       const job = await Job.findOne({ _id: args.jobId })
       const users = await User.find({ _id: { $in: args.userIds } })
 
-      console.log(job)
-      console.log(users)
+      const ids = users.map(user => user._id)
 
+      job.users = job.users.concat(ids)
+      await job.save()
+
+      users.map(async user => {
+        user.jobs = user.jobs.concat(job._id)
+        await user.save()
+      })
 
       return job
-    }
+    },
+
+    removeAssignment: async (root, args, { currentUser }) => {
+      
+      if (!currentUser) {
+        throw new AuthenticationError('not authenticated')
+      }
+
+      const job = await Job.findOne({ _id: args.jobId })
+      const user = await User.findOne({ _id: args.userId })
+
+      job.users = job.users.filter(user => {
+        !user.equals(args.userId)
+      })
+    },
+
   }
 
 }
