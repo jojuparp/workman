@@ -64,6 +64,11 @@ extend type Mutation {
     id: String!
   ): Job!
 
+  assignJob(
+    jobId: String!
+    userIds: [String!]
+  ): Job!
+
 }
 `
 
@@ -124,22 +129,20 @@ const resolvers = {
       const jobToEdit = await Job.findById(args.id)
 
       jobToEdit.completed = true
-
-      await User.update(
-        { jobs: { $in: args.id }},
-        { $pull: { jobs: { $eq: args.id }} },
-        { multi: true }
-      )
       
-      /* const usersToEdit = await User.find({ jobs: { $in: args.id } })
-      console.log(usersToEdit) */
+      const usersToEdit = await User.find({ jobs: { $in: args.id } })
 
-      /* const newUsers = usersToEdit.map(user => {
-        user.jobs.filter(job => {
-          console.log(!job.equals(args.id))
+      usersToEdit.map(async user => {
+        user.jobs = user.jobs.filter(job => {
           return !job.equals(args.id)
         })
-      }) */
+        await user.save()
+          .catch(error => {
+            throw new UserInputError(error.message, {
+              invalidArgs: args,
+            })
+          })
+      })
 
       await jobToEdit.save()
         .catch(error => {
@@ -149,6 +152,22 @@ const resolvers = {
         })
 
       return jobToEdit
+    },
+
+    assignJob: async (root, args, { currentUser }) => {
+
+      if (!currentUser) {
+        throw new AuthenticationError('not authenticated')
+      }
+
+      const job = await Job.findOne({ _id: args.jobId })
+      const users = await User.find({ _id: { $in: args.userIds } })
+
+      console.log(job)
+      console.log(users)
+
+
+      return job
     }
   }
 
