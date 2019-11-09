@@ -125,15 +125,15 @@ const resolvers = {
 
       jobToEdit.completed = true
       
-      //etsitään kaikki käyttäjät, joilla töiden listassa annettu id
       const usersToEdit = await User.find({ jobs: { $in: args.id } })
       console.log(usersToEdit)
 
-      //KESKEN!
-      usersToEdit.map(async user => {
-        user.jobs.filter(job => job !== args.id)
-        await user.save()
-      })
+      /* const newUsers = usersToEdit.map(user => {
+        user.jobs.filter(job => {
+          console.log(!job.equals(args.id))
+          return !job.equals(args.id)
+        })
+      }) */
 
       await jobToEdit.save()
         .catch(error => {
