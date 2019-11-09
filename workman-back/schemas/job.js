@@ -124,9 +124,15 @@ const resolvers = {
       const jobToEdit = await Job.findById(args.id)
 
       jobToEdit.completed = true
+
+      await User.update(
+        { jobs: { $in: args.id }},
+        { $pull: { jobs: { $eq: args.id }} },
+        { multi: true }
+      )
       
-      const usersToEdit = await User.find({ jobs: { $in: args.id } })
-      console.log(usersToEdit)
+      /* const usersToEdit = await User.find({ jobs: { $in: args.id } })
+      console.log(usersToEdit) */
 
       /* const newUsers = usersToEdit.map(user => {
         user.jobs.filter(job => {
