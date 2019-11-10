@@ -9,7 +9,7 @@ const schema = new mongoose.Schema({
   users: [
     { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
   ],
-  partsUsed: [
+  parts: [
     { type: mongoose.Schema.Types.ObjectId, ref: 'Part' }
   ],
   address: {

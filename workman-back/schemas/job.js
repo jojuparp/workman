@@ -30,7 +30,7 @@ type Job {
 
   type: JobType!
   users: [User!]
-  partsUsed: [Part!]
+  parts: [Part!]
   address: String!
   description: String!
   startDate: String
@@ -52,7 +52,7 @@ extend type Mutation {
   createJob(
     type: String!
     users: [String!]
-    partsUsed: [String!]
+    parts: [String!]
     address: String!
     description: String!
     startDate: String
@@ -103,27 +103,36 @@ const resolvers = {
       const type = await JobType.findOne({ name: args.type })
 
       const job = new Job({ ...args, type: type._id, completed: false })
-      job.users = job.users.concat(user._id)
 
-      await job.save()
+      if (args.users) {
+        const users = await User.find({ username: args.users })
+        const ids = users.map(user => user._id)
+        job.users = job.users.concat(ids)
+        
+        users.map(async user => {
+          user.jobs = user.jobs.concat(job._id)
+          await user.save()
+            .catch(error => {
+              throw new UserInputError(error.message, {
+                invalidArgs: args,
+              })
+            })
+        })
+      }
+
+      if (args.parts) {
+        const parts = await Part.find({ name: args.parts })
+        const ids = parts.map(part => part._id)
+        job.parts = job.parts.concat(ids)
+      }
+
+      return await job.save()
         .catch(error => {
           throw new UserInputError(error.message, {
             invalidArgs: args,
           })
         })
 
-      if (args.users) {
-        const user = await User.findOne({ username: args.users })
-        user.jobs = user.jobs.concat(job._id)
-        await user.save()
-          .catch(error => {
-            throw new UserInputError(error.message, {
-              invalidArgs: args,
-            })
-          })
-      }
-
-      return job
     },
 
     setJobCompleted: async (root, args, { currentUser }) => {
