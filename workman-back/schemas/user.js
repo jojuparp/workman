@@ -5,6 +5,7 @@ const bcrypt = require('bcrypt')
 
 const Job = require('../models/job')
 
+
 const typeDefs =`
 
 type Query {
@@ -14,7 +15,6 @@ type Query {
 type Mutation {
   _empty: String
 }
-
 
 type User {
   username: String!
@@ -31,7 +31,13 @@ type Token {
 extend type Query {
 
   userCount: Int!
+
   currentUser: User
+
+  findUsers(
+    jobId: String
+  ): [User]
+
 }
 
 extend type Mutation {
@@ -63,6 +69,13 @@ const resolvers = {
 
     currentUser: (root, args, context) => {
       return context.currentUser
+    },
+
+    findUsers: async (root, args) => {
+
+      const job = await Job.findById(args.jobId)
+
+      
     }
   },
 

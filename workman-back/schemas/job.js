@@ -45,6 +45,10 @@ extend type Query {
   jobCount: Int!
 
   allJobs: [Job!]!
+
+  findJobs(
+    user: String
+  ): [Job]
 }
 
 extend type Mutation {
@@ -87,7 +91,19 @@ const resolvers = {
       const jobs = await Job.find({})
         .populate('type')
         .populate('users')
+        .populate('parts')
       return jobs
+    },
+
+    findJobs: async (root, args) => {
+
+      const user = await User.find({$or:[{ username: args.user }, { name: args.user }]})
+
+      return await Job.find({ users: { $in: user }})
+        .populate('type')
+        .populate('users')
+        .populate('parts')
+      
     }
 
   },
