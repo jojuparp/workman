@@ -1,7 +1,9 @@
-const { UserInputError } = require('apollo-server')
+const { UserInputError, AuthenticationError } = require('apollo-server')
 const User = require('../models/user')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
+
+const Job = require('../models/job')
 
 const typeDefs =`
 
@@ -29,7 +31,7 @@ type Token {
 extend type Query {
 
   userCount: Int!
-  me: User
+  currentUser: User
 }
 
 extend type Mutation {
@@ -46,6 +48,11 @@ extend type Mutation {
     password: String!
   ): Token
 
+  removeAssignment(
+    userId: String!
+    jobId: String!
+  ): User!
+
 }
 `
 
@@ -54,17 +61,21 @@ const resolvers = {
   Query: {
     userCount: () => User.collection.countDocuments(),
 
-    me: (root, args, context) => {
+    currentUser: (root, args, context) => {
       return context.currentUser
     }
   },
 
   Mutation: {
 
-    createUser: async (root, args) => {
+    createUser: async (root, args, { currentUser }) => {
 
       if ( args.password.length < 5 ) {
         throw new UserInputError('password too short!')
+      }
+
+      if (!currentUser) {
+        throw new AuthenticationError('not authenticated')
       }
 
       const saltRounds = 10
@@ -80,7 +91,12 @@ const resolvers = {
         })
     },
 
-    login: async (root, args) => {
+    login: async (root, args, { currentUser }) => {
+
+      if (!currentUser) {
+        throw new AuthenticationError('not authenticated')
+      }
+
       const user = await User.findOne({ username: args.username })
 
       const passwordCorrect = user === null
@@ -98,6 +114,41 @@ const resolvers = {
   
       return { value: jwt.sign(userForToken, process.env.SECRET) }
     },
+
+    removeAssignment: async (root, args, { currentUser }) => {
+
+      if (!currentUser) {
+        throw new AuthenticationError('not authenticated')
+      }
+
+      const job = await Job.findOne({ _id: args.jobId })
+      const user = await User.findOne({ _id: args.userId })
+
+      job.users = job.users.filter(user => {
+        return !user.equals(args.userId)
+      })
+
+      await job.save()
+        .catch(error => {
+          throw new UserInputError(error.message, {
+            invalidArgs: args,
+          })
+        })
+
+      user.jobs = user.jobs.filter(job => {
+        return !job.equals(args.jobId)
+      })
+
+      await user.save()
+        .catch(error => {
+          throw new UserInputError(error.message, {
+            invalidArgs: args,
+          })
+        })
+
+      return user
+    },
+
   }
   
 }

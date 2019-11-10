@@ -69,9 +69,9 @@ extend type Mutation {
     userIds: [String!]
   ): Job!
 
-  removeAssignment(
+  removeAssigned(
     jobId: String!
-    userIds: String!
+    userId: String!
   ): Job!
 
 }
@@ -86,7 +86,7 @@ const resolvers = {
     allJobs: async () => {
       const jobs = await Job.find({})
         .populate('type')
-        .populate('user')
+        .populate('users')
       return jobs
     }
 
@@ -173,16 +173,26 @@ const resolvers = {
 
       job.users = job.users.concat(ids)
       await job.save()
+        .catch(error => {
+          throw new UserInputError(error.message, {
+            invalidArgs: args,
+          })
+        })
 
       users.map(async user => {
         user.jobs = user.jobs.concat(job._id)
         await user.save()
+          .catch(error => {
+            throw new UserInputError(error.message, {
+              invalidArgs: args,
+            })
+          })
       })
 
       return job
     },
 
-    removeAssignment: async (root, args, { currentUser }) => {
+    removeAssigned: async (root, args, { currentUser }) => {
       
       if (!currentUser) {
         throw new AuthenticationError('not authenticated')
@@ -192,8 +202,28 @@ const resolvers = {
       const user = await User.findOne({ _id: args.userId })
 
       job.users = job.users.filter(user => {
-        !user.equals(args.userId)
+        return !user.equals(args.userId)
       })
+
+      await job.save()
+        .catch(error => {
+          throw new UserInputError(error.message, {
+            invalidArgs: args,
+          })
+        })
+
+      user.jobs = user.jobs.filter(job => {
+        return !job.equals(args.jobId)
+      })
+
+      await user.save()
+        .catch(error => {
+          throw new UserInputError(error.message, {
+            invalidArgs: args,
+          })
+        })
+
+      return job
     },
 
   }

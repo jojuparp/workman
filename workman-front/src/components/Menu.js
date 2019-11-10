@@ -68,7 +68,7 @@ const Menu = ({ setToken, result }) => {
                   </NavDropdown>
 
                   <Nav.Link href="#" as="span">
-                    {result.data.me.name} kirjautunut
+                    {result.data.currentUser.name} kirjautunut
                   </Nav.Link>
 
                   <Button onClick={() => setToken(null)} variant="primary" type="submit">
