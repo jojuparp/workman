@@ -1,11 +1,4 @@
 const { UserInputError, AuthenticationError } = require('apollo-server')
-const {
-  GraphQLDate,
-  GraphQLTime,
-  GraphQLDateTime
-} = require('graphql-iso-date')
-const mongoose = require('mongoose')
-const ObjectID = require('mongodb').ObjectID
 
 //models
 const Job = require('../models/job')
@@ -76,6 +69,22 @@ extend type Mutation {
   removeAssigned(
     jobId: String!
     userId: String!
+  ): Job!
+
+  editJob(
+    jobId: String!
+    setType: String
+    setUsers: [String!]
+    setParts: [String!]
+    setAddress: String
+    setDescription: String
+    setStartDate: String
+    setEndDate: String
+  ): Job!
+
+  changeType(
+    jobId: String!
+    setTypeTo: String!
   ): Job!
 
 }
@@ -251,6 +260,25 @@ const resolvers = {
       return job
     },
 
+    changeType: async (root, args, { currentUser }) => {
+
+      if (!currentUser) {
+        throw new AuthenticationError('not authenticated')
+      }
+
+      const job = await Job.findById(args.jobId)
+      const type = await JobType.findOne({ name: args.setTypeTo })
+
+      job.type = type._id
+
+      return await job.save()
+        .catch(error => {
+          throw new UserInputError(error.message, {
+            invalidArgs: args,
+          })
+        })
+    },
+  
   }
 
 }

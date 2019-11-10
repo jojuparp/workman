@@ -33,9 +33,9 @@ const resolvers = {
   Mutation: {
 
     createPart: (root, args) => {
-      const jobType = new Part({ ...args })
+      const part = new Part({ ...args })
   
-      return jobType.save()
+      return part.save()
         .catch(error => {
           throw new UserInputError(error.message, {
             invalidArgs: args,

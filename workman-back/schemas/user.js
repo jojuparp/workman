@@ -5,7 +5,6 @@ const bcrypt = require('bcrypt')
 
 const Job = require('../models/job')
 
-
 const typeDefs =`
 
 type Query {
@@ -75,8 +74,9 @@ const resolvers = {
 
       const job = await Job.findById(args.jobId)
 
-      
+      return await User.find({ jobs: { $in: job } })
     }
+
   },
 
   Mutation: {
