@@ -11,4 +11,5 @@ Päivä | Aika | Mitä tein
 8.11. | 4 | - Viimeistelty mutaatio työtehtävän lisäämiselle - <br> - Aloitettu mutaatio työtehtävän tilan muokkaamiselle
 9.11. | 4 | - Viimeistelty ja lisätty mutaatioita
 10.11. | 5 | - Refaktoroitu kyselyitä ja mutaatioita
-yht. | 35 |
+12.11. | 4 | - Scala-ohjelmointikielen asennus ja alkeiden opettelu
+yht. | 39 |
