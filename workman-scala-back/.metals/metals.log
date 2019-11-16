@@ -1,0 +1,1480 @@
+INFO  time: initialize in 1.62s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/app/controllers/HomeController.scala
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals1007772031402506837/sbt-launch.jar metalsEnable bloopInstall'
+INFO  no build target: using presentation compiler with only scala-library
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-back-scala-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-back-scala-build.json
+INFO  [success] Total time: 5 s, completed Nov 16, 2019, 8:36:56 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Total time: 13 s, completed Nov 16, 2019, 8:37:16 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 43s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp6232547496853068041/-1i3hnx3hhag3p.socket'
+The server is listening for incoming connections at local:///tmp/bsp6232547496853068041/-1i3hnx3hhag3p.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp6232547496853068041/-1i3hnx3hhag3p.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 6.36s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.45s
+INFO  time: indexed workspace in 6.35s
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.0/0.7.6/mtags_2.13.0-0.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.0/0.7.6/mtags_2.13.0-0.7.6.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.0/0.7.6/mtags_2.13.0-0.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.0/0.7.6/mtags_2.13.0-0.7.6.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.0/0.7.6/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.0/0.7.6/
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.0. Compiling...
+INFO    Compilation completed in 13.274s.
+INFO  time: compiled root in 17s
+ERROR Failed to compile 'root','root-test'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 0.5s
+ERROR Failed to compile 'root'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 0.41s
+ERROR Failed to compile 'root'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 3s
+Nov 16, 2019 8:46:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 79
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.96s
+INFO  compiling root (7 scala sources and 2 java sources)
+INFO  time: compiled root in 0.66s
+ERROR Failed to compile 'root'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 2.2s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 1.43s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/build.sbt
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2928454687528939631/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-back-scala-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-back-scala-build.json
+INFO  [success] Total time: 3 s, completed Nov 16, 2019, 8:55:38 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Total time: 5 s, completed Nov 16, 2019, 8:55:48 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 23s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp14762790614535710701/1mnmhd4y0mlus.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp14762790614535710701/1mnmhd4y0mlus.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp14762790614535710701/1mnmhd4y0mlus.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.23s
+BSP initialization handshake complete.
+INFO  time: imported build in 1.21s
+INFO  time: indexed workspace in 1.61s
+INFO  Deduplicating compilation of root from bsp client 'Metals 0.7.6' (since 10.22s)
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 0.42s
+ERROR Failed to compile 'root','root-test'
+ERROR Failed to compile 'root'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 1.64s
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  time: initialize in 1.15s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp11036081876523326425/-g7ulzras1n5z.socket'
+INFO  skipping build import with status 'Installed'
+The server is listening for incoming connections at local:///tmp/bsp11036081876523326425/-g7ulzras1n5z.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp11036081876523326425/-g7ulzras1n5z.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 7.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.36s
+INFO  time: indexed workspace in 1.95s
+WARN  no build target: 
+INFO  compiling root (1 scala source)
+INFO  Deduplicating compilation of root from bsp client 'Metals 0.7.6' (since 59.185s)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.55s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1ms
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.69s
+ERROR Failed to compile 'root'
+ERROR Failed to compile 'root'
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/build.sbt
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.32s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.34s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.41s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.41s
+ERROR Failed to compile 'root'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 3.21s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.48s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.87s
+Nov 16, 2019 9:16:39 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+Nov 16, 2019 9:16:39 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+Nov 16, 2019 9:16:39 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+Nov 16, 2019 9:16:39 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+Nov 16, 2019 9:16:39 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+Nov 16, 2019 9:16:39 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+Nov 16, 2019 9:16:39 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+Nov 16, 2019 9:16:39 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.16s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root'
+Nov 16, 2019 9:17:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+Nov 16, 2019 9:17:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+Nov 16, 2019 9:17:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+Nov 16, 2019 9:17:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+Nov 16, 2019 9:17:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+Nov 16, 2019 9:17:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+Nov 16, 2019 9:17:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+Nov 16, 2019 9:17:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.75s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 98ms
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.7s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.8s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.88s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2767090671067637212/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-back-scala-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/project
+INFO  [success] Generated .bloop/workman-back-scala-build.json
+INFO  [success] Total time: 2 s, completed Nov 16, 2019, 9:57:52 AM
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Total time: 6 s, completed Nov 16, 2019, 9:58:05 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 23s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp6463475600456501047/-jmhuxxcmmtea.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp6463475600456501047/-jmhuxxcmmtea.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp6463475600456501047/-jmhuxxcmmtea.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.3s
+INFO  time: indexed workspace in 1.37s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.91s
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Conductors.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,JavaFutures.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,ScalaFutures.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/client/params/,ClientPNames.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,ScalaFutures$.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,ScaledTimeSpans.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/client/params/,AllClientPNames.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,ConductorMethods.class)
+Nov 16, 2019 9:59:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/client/params/,HttpClientParams.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.86s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.72s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.24s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.2s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.74s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 97ms
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.21s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.1s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 33ms
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.13s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root','root-test'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.78s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.25s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.29s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.29s
+ERROR Failed to compile 'root'
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10841369691147064407/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-back-scala-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/project
+INFO  [success] Generated .bloop/workman-back-scala-build.json
+INFO  [success] Total time: 2 s, completed Nov 16, 2019, 10:11:49 AM
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Total time: 5 s, completed Nov 16, 2019, 10:11:57 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 19s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp11164646794920549941/1nida6ghdm1py.socket'
+The server is listening for incoming connections at local:///tmp/bsp11164646794920549941/1nida6ghdm1py.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp11164646794920549941/1nida6ghdm1py.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.21s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.29s
+Nov 16, 2019 10:12:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 1.57s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.73s
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-back-scala/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  time: initialize in 3.38s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp6732332013802757876/12npr8mwp7im6.socket'
+INFO  skipping build import with status 'Installed'
+The server is listening for incoming connections at local:///tmp/bsp6732332013802757876/12npr8mwp7im6.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp6732332013802757876/12npr8mwp7im6.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 13s
+BSP initialization handshake complete.
+INFO  time: imported build in 1.08s
+INFO  time: indexed workspace in 12s
+WARN  no build target: 
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,HttpEntity$Strict.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,TextMessage$Strict.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,BinaryMessage$Strict.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,TextMessage$Strict$.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,BinaryMessage$Strict$.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Cookie$SameSite$Strict$.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/jsonwebtoken/lang/,Strings.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/util/concurrent/,Striped.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,HttpEntity$Streamed.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,TextMessage$Streamed.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,BinaryMessage$Streamed.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,TextMessage$Streamed$.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,BinaryMessage$Streamed$.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/cache/,Striped64.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/checkerframework/common/value/qual/,StringVal.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/regexp/,SubString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/utils/,XMLString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/reflect/io/,Streamable.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,HttpEntity$Strict.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,TextMessage$Strict.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,BinaryMessage$Strict.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,TextMessage$Strict$.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/model/ws/,BinaryMessage$Strict$.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Cookie$SameSite$Strict$.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/jsonwebtoken/lang/,Strings.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/util/concurrent/,Striped.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/common/cache/,Striped64.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/checkerframework/common/value/qual/,StringVal.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/regexp/,SubString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/utils/,XMLString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/entity/mime/content/,StringBody.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/request/body/multipart/,StringPart.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/twirl/api/,TemplateMagic$RichString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/util/,StringUtils.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/exec/util/,StringUtils.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/codec/binary/,StringUtils.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/util/,StringUtils.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Token$StringToken.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/,HeadersUtils$StringEntry.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/entity/,StringEntity.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/inject/multibindings/,StringMapKey.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,StringLookup.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/jsonwebtoken/lang/,Strings.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/checkerframework/common/value/qual/,StringVal.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/regexp/,SubString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/utils/,XMLString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/entity/mime/content/,StringBody.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/request/body/multipart/,StringPart.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/twirl/api/,TemplateMagic$RichString.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/util/,StringUtils.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/codec/binary/,StringUtils.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/exec/util/,StringUtils.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/util/,StringUtils.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Token$StringToken.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/,HeadersUtils$StringEntry.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/entity/,StringEntity.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/inject/multibindings/,StringMapKey.class)
+Nov 16, 2019 10:30:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,StringLookup.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/actor/dsl/,Creators$Act.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/mvc/,Action.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action$.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/inject/internal/,RealOptionalBinder$Actual.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/actor/,ActorPublisher$Internal$Active$.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/actor/dsl/,Inbox$InboxActor.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/inject/internal/,RealOptionalBinder$ActualImpl.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,MouseAction.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,TouchAction.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFilter.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/actor/dsl/,Creators$ActWithStash.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,ActionCreator.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionRefiner.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/,ActiveXObject.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,DisplayAction.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder$.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/routing/,ActorRefRoutee.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFunction.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/actor/,ActorPublisher.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/routing/,ActorRefRoutee$.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/actor/,ActorPublisher$.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/loading/,ByteArrayClassLoader$PackageLookupStrategy$CreationAction.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/utility/,JavaModule$Dispatcher$CreationAction.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(junit/extensions/,ActiveTestSuite.class)
+Nov 16, 2019 10:30:26 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/pattern/,AskableActorRef.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/mvc/,Action.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action$.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/actor/,ActorPublisher$Internal$Active$.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,MouseAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,TouchAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFilter.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,ActionCreator.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionRefiner.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/,ActiveXObject.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,DisplayAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder$.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFunction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/loading/,ByteArrayClassLoader$PackageLookupStrategy$CreationAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/utility/,JavaModule$Dispatcher$CreationAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(junit/extensions/,ActiveTestSuite.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/mvc/,Action.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action$.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,MouseAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,TouchAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFilter.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,ActionCreator.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionRefiner.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,DisplayAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder$.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFunction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/loading/,ByteArrayClassLoader$PackageLookupStrategy$CreationAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/utility/,JavaModule$Dispatcher$CreationAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,SingleKeyAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilderImpl.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionTransformer.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,KeysRelatedAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/filters/csrf/,AddCSRFTokenAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseServeAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,DefaultActionCreator.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseServeActions.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseServeActions$.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseCachingAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/loading/,ByteArrayClassLoader$ClassDefinitionAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseCachingActions.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseCachingActions$.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/filters/csp/,DefaultCSPActionBuilder.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseSelectionAction.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseSelectionActions.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseSelectionActions$.class)
+Nov 16, 2019 10:30:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/filters/csp/,DefaultCSPReportActionBuilder.class)
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+Nov 16, 2019 10:34:45 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/http/websocketx/extensions/,WebSocketExtensionData.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/actor/dsl/,Creators$Act.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/mvc/,Action.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/inject/internal/,RealOptionalBinder$Actual.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/actor/,ActorPublisher$Internal$Active$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/actor/dsl/,Inbox$InboxActor.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/google/inject/internal/,RealOptionalBinder$ActualImpl.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,MouseAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,TouchAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFilter.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/actor/dsl/,Creators$ActWithStash.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,ActionCreator.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionRefiner.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/,ActiveXObject.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,DisplayAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/routing/,ActorRefRoutee.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFunction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/actor/,ActorPublisher.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/routing/,ActorRefRoutee$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/actor/,ActorPublisher$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/loading/,ByteArrayClassLoader$PackageLookupStrategy$CreationAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/utility/,JavaModule$Dispatcher$CreationAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(junit/extensions/,ActiveTestSuite.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/pattern/,AskableActorRef.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/mvc/,Action.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/actor/,ActorPublisher$Internal$Active$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,MouseAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,TouchAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFilter.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,ActionCreator.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionRefiner.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/,ActiveXObject.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,DisplayAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFunction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/loading/,ByteArrayClassLoader$PackageLookupStrategy$CreationAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/utility/,JavaModule$Dispatcher$CreationAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(junit/extensions/,ActiveTestSuite.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/mvc/,Action.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,Action$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,MouseAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,TouchAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFilter.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,ActionCreator.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionRefiner.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,DisplayAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilder$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionFunction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/loading/,ByteArrayClassLoader$PackageLookupStrategy$CreationAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/utility/,JavaModule$Dispatcher$CreationAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,SingleKeyAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionBuilderImpl.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/api/mvc/,ActionTransformer.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,KeysRelatedAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/filters/csrf/,AddCSRFTokenAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseServeAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/http/,DefaultActionCreator.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseServeActions.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseServeActions$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseCachingAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/loading/,ByteArrayClassLoader$ClassDefinitionAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseCachingActions.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseCachingActions$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/filters/csp/,DefaultCSPActionBuilder.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseSelectionAction.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseSelectionActions.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/typesafe/play/cachecontrol/,ResponseSelectionActions$.class)
+Nov 16, 2019 10:34:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/filters/csp/,DefaultCSPReportActionBuilder.class)
+Nov 16, 2019 10:37:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/http/scaladsl/,UseHttp2$Never$.class)
+Nov 16, 2019 10:37:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/impl/fusing/,ActorGraphInterpreter$RequestMore.class)
+Nov 16, 2019 10:37:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/stream/impl/fusing/,ActorGraphInterpreter$RequestMore$.class)
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+Nov 16, 2019 11:03:11 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/parboiled2/,package.class)
+Nov 16, 2019 11:03:11 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(akka/parboiled2/,package$.class)
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4001856192537022990/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [warn] Removed stale /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project/.bloop/workman-back-scala-build.json
+INFO  [success] Total time: 5 s, completed Nov 16, 2019, 11:14:00 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.reactivemongo:reactivemongo_2.13:0.1x
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.reactivemongo/reactivemongo_2.13/0.1x/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.13/0.1x/reactivemongo_2.13-0.1x.pom
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.reactivemongo:reactivemongo_2.13:0.1x
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.reactivemongo/reactivemongo_2.13/0.1x/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.13/0.1x/reactivemongo_2.13-0.1x.pom
+INFO  [error] Total time: 2 s, completed Nov 16, 2019, 11:14:09 AM
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 30s
+ERROR sbt command failed: /home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4001856192537022990/sbt-launch.jar metalsEnable bloopInstall
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp12726371017648341389/-m839hc8ulylm.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp12726371017648341389/-m839hc8ulylm.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp12726371017648341389/-m839hc8ulylm.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.28s
+INFO  time: indexed workspace in 3s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+  /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+INFO  skipping build import with status 'Failed'
+WARN  no build target: 
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2171197190450057405/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 5 s, completed Nov 16, 2019, 11:26:09 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+ERROR /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt:16: error: object RouteKeys is not a member of package play.sbt.routes
+ERROR play.sbt.routes.RouteKeys +=
+ERROR                 ^
+INFO  [error] Type error in expression
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 24s
+ERROR sbt command failed: /home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2171197190450057405/sbt-launch.jar metalsEnable bloopInstall
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp11071187994753759373/-ndiolmlpw8lr.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp11071187994753759373/-ndiolmlpw8lr.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp11071187994753759373/-ndiolmlpw8lr.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.23s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.34s
+INFO  time: indexed workspace in 1.27s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+  /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13667950606316871947/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 2 s, completed Nov 16, 2019, 11:27:00 AM
+ERROR /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt:16: error: object RouteKeys is not a member of package play.sbt.routes
+ERROR play.sbt.routes.RouteKeys.routesImport +=
+ERROR                 ^
+INFO  [error] Type error in expression
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 12s
+ERROR sbt command failed: /home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13667950606316871947/sbt-launch.jar metalsEnable bloopInstall
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp5969314493917410448/1gmubv00ltd.socket'
+The server is listening for incoming connections at local:///tmp/bsp5969314493917410448/1gmubv00ltd.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp5969314493917410448/1gmubv00ltd.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.29s
+INFO  time: indexed workspace in 1.46s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+  /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11660424932696977971/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 3 s, completed Nov 16, 2019, 11:45:49 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.reactivemongo:reactivemongo_2.13:0.1x
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.reactivemongo/reactivemongo_2.13/0.1x/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.13/0.1x/reactivemongo_2.13-0.1x.pom
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.reactivemongo:reactivemongo_2.13:0.1x
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.reactivemongo/reactivemongo_2.13/0.1x/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.13/0.1x/reactivemongo_2.13-0.1x.pom
+INFO  [error] Total time: 1 s, completed Nov 16, 2019, 11:45:56 AM
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 23s
+ERROR sbt command failed: /home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11660424932696977971/sbt-launch.jar metalsEnable bloopInstall
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp12610300885346736238/13mhhzl6nkujn.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp12610300885346736238/13mhhzl6nkujn.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp12610300885346736238/13mhhzl6nkujn.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.21s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.26s
+INFO  time: indexed workspace in 0.94s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+  /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  time: initialize in 1.34s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp9281203373809614156/1h1ii5ksyj9jf.socket'
+INFO  skipping build import with status 'Failed'
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+The server is listening for incoming connections at local:///tmp/bsp9281203373809614156/1h1ii5ksyj9jf.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp9281203373809614156/1h1ii5ksyj9jf.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 8s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.6s
+INFO  time: indexed workspace in 11s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+Nov 16, 2019 11:51:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5383119062148878244/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 4 s, completed Nov 16, 2019, 11:52:05 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.reactivemongo:play2-reactivemongo_2.13:0.12.4
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.reactivemongo/play2-reactivemongo_2.13/0.12.4/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/reactivemongo/play2-reactivemongo_2.13/0.12.4/play2-reactivemongo_2.13-0.12.4.pom
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.reactivemongo:play2-reactivemongo_2.13:0.12.4
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.reactivemongo/play2-reactivemongo_2.13/0.12.4/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/reactivemongo/play2-reactivemongo_2.13/0.12.4/play2-reactivemongo_2.13-0.12.4.pom
+INFO  [error] Total time: 1 s, completed Nov 16, 2019, 11:52:13 AM
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 23s
+ERROR sbt command failed: /home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5383119062148878244/sbt-launch.jar metalsEnable bloopInstall
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp3808013401999345687/-iz0b8jln6y8k.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp3808013401999345687/-iz0b8jln6y8k.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp3808013401999345687/-iz0b8jln6y8k.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.31s
+INFO  time: indexed workspace in 1.17s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/AppController.scala
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13924097535967892000/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 3 s, completed Nov 16, 2019, 11:56:55 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9283804378844167986/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Total time: 9 s, completed Nov 16, 2019, 11:57:11 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 31s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp4843840718234287003/1nu5vjcowr263.socket'
+The server is listening for incoming connections at local:///tmp/bsp4843840718234287003/1nu5vjcowr263.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp4843840718234287003/1nu5vjcowr263.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.26s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.69s
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  time: indexed workspace in 3.89s
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 3 s, completed Nov 16, 2019, 11:57:24 AM
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  time: compiled root in 12s
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Total time: 5 s, completed Nov 16, 2019, 11:57:37 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 28s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp16553697014222639513/-wdhhy8wzatl9.socket'
+The server is listening for incoming connections at local:///tmp/bsp16553697014222639513/-wdhhy8wzatl9.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp16553697014222639513/-wdhhy8wzatl9.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.36s
+INFO  time: indexed workspace in 1.15s
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.63s
+ERROR Failed to compile 'root','root-test'
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+INFO  skipping build import with status 'Installed'
+WARN  no build target: 
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14711427012643232185/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 3 s, completed Nov 16, 2019, 12:10:22 PM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Total time: 8 s, completed Nov 16, 2019, 12:10:37 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 28s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp12518414749243784147/-q0slpb6trux3.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp12518414749243784147/-q0slpb6trux3.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp12518414749243784147/-q0slpb6trux3.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.31s
+INFO  time: indexed workspace in 1.13s
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.48s
+ERROR Failed to compile 'root','root-test'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 1.02s
+ERROR Failed to compile 'root'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 0.85s
+ERROR Failed to compile 'root'
+Nov 16, 2019 12:33:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+Nov 16, 2019 12:33:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+Nov 16, 2019 12:33:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okhttp3/,Request.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runner/,Request.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/client/api/,Request.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/fetch/,Request.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/commonjs/module/,Require.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/http/,MetaData$Request.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/libs/ws/,WSRequest.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/idb/,IDBRequest.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okhttp3/internal/http/,RequestLine.class)
+Nov 16, 2019 12:33:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,RequestLine.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/core/,AnyOf.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dtd/models/,CMAny.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dv/xs/,AnyURIDV.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/protocol/,AnyHandler.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/core/,IsAnything.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dv/xs/,AnyAtomicDV.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dv/xs/,AnySimpleDV.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/experimental/categories/,ExcludeCategories$ExcludesAny.class)
+Nov 16, 2019 12:34:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/experimental/categories/,IncludeCategories$IncludesAny.class)
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 0.4s
+ERROR Failed to compile 'root'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 0.36s
+ERROR Failed to compile 'root'
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 0.43s
+ERROR Failed to compile 'root'
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4625167843494273533/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 5 s, completed Nov 16, 2019, 12:38:23 PM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  time: compiled root in 5.36s
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Total time: 6 s, completed Nov 16, 2019, 12:38:35 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 29s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp12064391972960391845/h13f7h17gy56.socket'
+The server is listening for incoming connections at local:///tmp/bsp12064391972960391845/h13f7h17gy56.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp12064391972960391845/h13f7h17gy56.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.21s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.29s
+INFO  time: indexed workspace in 1.16s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+INFO  skipping build import with status 'Installed'
+WARN  no build target: 
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2485976176720735969/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 5 s, completed Nov 16, 2019, 12:53:03 PM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Total time: 32 s, completed Nov 16, 2019, 12:53:42 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 54s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp4390928432810914188/tqxgo0k89ams.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp4390928432810914188/tqxgo0k89ams.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp4390928432810914188/tqxgo0k89ams.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.21s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.28s
+INFO  time: indexed workspace in 3.07s
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.7.6/mtags_2.12.8-0.7.6.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.7.6/mtags_2.12.8-0.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.7.6/mtags_2.12.8-0.7.6.pom.sha1
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.7.6/mtags_2.12.8-0.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.7.6/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/0.7.6/
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.8. Compiling...
+INFO    Compilation completed in 16.383s.
+INFO  time: compiled root in 27s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14592684276028695404/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 3 s, completed Nov 16, 2019, 12:57:35 PM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Total time: 2 s, completed Nov 16, 2019, 12:57:46 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 25s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp467429360924360438/-8hg0qy4z96y5.socket'
+The server is listening for incoming connections at local:///tmp/bsp467429360924360438/-8hg0qy4z96y5.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp467429360924360438/-8hg0qy4z96y5.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.21s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.28s
+INFO  time: indexed workspace in 1.16s
+INFO  compiling root (5 scala sources and 1 java source)
+INFO  time: compiled root in 1.64s
+Nov 16, 2019 12:59:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://repo1.maven.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Nov 16, 2019 12:59:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://repo1.maven.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Nov 16, 2019 12:59:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://repo1.maven.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Nov 16, 2019 12:59:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://repo1.maven.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Nov 16, 2019 12:59:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://repo1.maven.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Nov 16, 2019 12:59:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://repo1.maven.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+Nov 16, 2019 12:59:07 PM okhttp3.internal.platform.Platform log
+WARNING: A connection to https://repo1.maven.org/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);

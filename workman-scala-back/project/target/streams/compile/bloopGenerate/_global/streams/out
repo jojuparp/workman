@@ -1,0 +1,4 @@
+[debug] [workman-scala-back-build] Classpath dependencies List()
+[debug] [workman-scala-back-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'workman-scala-back-build' to '/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project/.bloop/workman-scala-back-build.json'
+[success] Generated .bloop/workman-scala-back-build.json
