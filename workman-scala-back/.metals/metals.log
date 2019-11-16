@@ -3675,3 +3675,547 @@ SEVERE: null
 java.lang.NullPointerException
 	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
 
+INFO  compiling root (7 scala sources and 1 java source)
+INFO  time: compiled root in 1.64s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.5s
+Nov 16, 2019 2:30:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/svg/,SvgUse.class)
+Nov 16, 2019 2:30:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/dom/,ParentNode$UserDataRecord.class)
+Nov 16, 2019 2:30:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,NTUserPrincipal.class)
+Nov 16, 2019 2:30:04 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/client/,UserTokenHandler.class)
+Nov 16, 2019 2:30:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 2:30:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 16, 2019 2:30:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 2:30:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 827, 827, 843)
+Nov 16, 2019 2:30:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okhttp3/internal/http2/,Hpack$Writer.class)
+Nov 16, 2019 2:30:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okhttp3/internal/http2/,Hpack$Writer.class)
+Nov 16, 2019 2:30:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okhttp3/internal/http2/,Hpack$Writer.class)
+Nov 16, 2019 2:30:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/net/tftp/,TFTPWriteRequestPacket.class)
+Nov 16, 2019 2:30:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Nov 16, 2019 2:34:10 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/generic/,BASTORE.class)
+Nov 16, 2019 2:34:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 2:34:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 16, 2019 2:34:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 2:34:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 966, 966, 982)
+Nov 16, 2019 2:34:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op.class)
+Nov 16, 2019 2:34:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$CharOp.class)
+Nov 16, 2019 2:34:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ChildOp.class)
+Nov 16, 2019 2:34:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$RangeOp.class)
+Nov 16, 2019 2:34:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$UnionOp.class)
+Nov 16, 2019 2:34:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+Nov 16, 2019 2:34:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ModifierOp.class)
+Nov 16, 2019 2:34:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ConditionOp.class)
+Nov 16, 2019 2:34:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 2:34:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt.class)
+Nov 16, 2019 2:34:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 2:34:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 2:34:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 2:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 973, 973, 989)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 973, 973, 983)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[models.User]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 973, 973, 985)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[models.User]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 973, 973, 985)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[models.User]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 973, 973, 985)
+Nov 16, 2019 2:35:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/svg/,SvgUse.class)
+Nov 16, 2019 2:35:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/dom/,ParentNode$UserDataRecord.class)
+Nov 16, 2019 2:35:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,NTUserPrincipal.class)
+Nov 16, 2019 2:35:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/client/,UserTokenHandler.class)
+Nov 16, 2019 2:37:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/io/input/,BOMInputStream.class)
+Nov 16, 2019 2:37:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/idb/,IDBObjectStore.class)
+Nov 16, 2019 2:37:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/play/,BaseOneAppPerSuite.class)
+Nov 16, 2019 2:37:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/io/output/,BrokenOutputStream.class)
+Nov 16, 2019 2:37:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/io/input/,BOMInputStream.class)
+Nov 16, 2019 2:37:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/idb/,IDBObjectStore.class)
+Nov 16, 2019 2:37:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/play/,BaseOneAppPerSuite.class)
+Nov 16, 2019 2:37:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/io/output/,BrokenOutputStream.class)
+Nov 16, 2019 2:37:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/generic/,BASTORE.class)
+Nov 16, 2019 2:37:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 2:37:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 16, 2019 2:37:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 2:37:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosInt.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosInt$.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosLong.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosZInt.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosLong$.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosZInt$.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosFloat.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosZLong.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/source/,Position.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Position.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/client/methods/,HttpPost.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosFloat$.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosZLong$.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/source/,Position$.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosDouble.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosZFloat.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosDouble$.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosZFloat$.class)
+Nov 16, 2019 2:37:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/anyvals/,PosZDouble.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1118, 1118, 1134)
+Nov 16, 2019 2:37:50 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op.class)
+Nov 16, 2019 2:37:50 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$CharOp.class)
+Nov 16, 2019 2:37:50 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ChildOp.class)
+Nov 16, 2019 2:37:50 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$RangeOp.class)
+Nov 16, 2019 2:37:50 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$UnionOp.class)
+Nov 16, 2019 2:37:50 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+Nov 16, 2019 2:37:50 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ModifierOp.class)
+Nov 16, 2019 2:37:50 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ConditionOp.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 2:37:52 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1141)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1134)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1137)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1136)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1135)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1134)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1141)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1134)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1135)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[models.User]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1125, 1125, 1137)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[Option[models.User]]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1118, 1118, 1138)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+Nov 16, 2019 2:40:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/generic/,BASTORE.class)
+Nov 16, 2019 2:43:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/generic/,BASTORE.class)
+Nov 16, 2019 2:48:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/time/,Units.class)
+Nov 16, 2019 2:48:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/,JUnit4.class)
+Nov 16, 2019 2:48:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xs/identity/,UniqueOrKey.class)
+Nov 16, 2019 2:48:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/ipfilter/,UniqueIpFilter.class)
+Nov 16, 2019 2:48:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xs/traversers/,XSDUniqueOrKeyTraverser.class)
+Nov 16, 2019 2:48:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/time/,Units.class)
+Nov 16, 2019 2:48:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/,JUnit4.class)
+Nov 16, 2019 2:48:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dv/xs/,UnionDV.class)
+Nov 16, 2019 2:48:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dtd/models/,CMUniOp.class)
+Nov 16, 2019 2:48:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$UnionOp.class)
+Nov 16, 2019 2:48:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xs/identity/,UniqueOrKey.class)
+Nov 16, 2019 2:48:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/ipfilter/,UniqueIpFilter.class)
+Nov 16, 2019 2:48:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xs/traversers/,XSDUniqueOrKeyTraverser.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.35s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.32s
+ERROR Failed to compile 'root'
+Nov 16, 2019 2:48:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Nov 16, 2019 2:48:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.41s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.28s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.26s
+ERROR Failed to compile 'root','root-test'
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.38s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.38s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/models/User.scala in Option[String]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/models/User.scala, 274, 274, 288)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/models/User.scala in Option[String]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/models/User.scala, 274, 274, 288)
+Nov 16, 2019 2:56:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Conductors$Conductor$Setup$.class)
+Nov 16, 2019 2:56:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup.class)
+Nov 16, 2019 2:56:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup$.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/tools/debugger/,Main.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/source/,Position.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/source/,Position$.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/firefox/internal/,Extension.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/annotations/,JSFunction.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/tools/debugger/,FindFunction.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/regexp/,RegExpJsToJavaConverter$Subexpresion.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/firefox/internal/,FileExtension.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/annotations/,JSStaticFunction.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/firefox/internal/,ClasspathExtension.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/compression/,CompressionException.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/performance/,PerformanceNavigation.class)
+Nov 16, 2019 2:56:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/compression/,DecompressionException.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/tools/debugger/,Main.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/source/,Position.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/source/,Position$.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/firefox/internal/,Extension.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/annotations/,JSFunction.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/tools/debugger/,FindFunction.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/regexp/,RegExpJsToJavaConverter$Subexpresion.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/firefox/internal/,FileExtension.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/annotations/,JSStaticFunction.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/firefox/internal/,ClasspathExtension.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/compression/,CompressionException.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/performance/,PerformanceNavigation.class)
+Nov 16, 2019 2:56:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/compression/,DecompressionException.class)
+Nov 16, 2019 2:56:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Conductors$Conductor$Setup$.class)
+Nov 16, 2019 2:56:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup.class)
+Nov 16, 2019 2:56:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup$.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[reactivemongo.play.json.collection.JSONCollection]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 545, 545, 567)
+Nov 16, 2019 2:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4852
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$Point.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$Point.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$Point$.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$Point$.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$Element.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$Element.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/net/ftp/,FTPClient.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/net/ftp/,FTPSClient.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/events/annotations/,AfterScript.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/events/annotations/,AfterGetText.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/events/annotations/,BeforeScript.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$SwitchTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$SwitchTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$ValueElement.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$ValueElement.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$WindowTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$WindowTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/events/annotations/,BeforeGetText.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/net/ftp/,FTPHTTPClient.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/events/annotations/,AfterAlertAccept.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$FrameIndexTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$FrameIndexTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/events/annotations/,BeforeAlertAccept.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$FrameElementTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$FrameElementTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$FrameNameOrIdTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$FrameNameOrIdTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$DefaultContentTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$DefaultContentTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/selenium/,WebBrowser$FrameWebElementTarget.class)
+Nov 16, 2019 2:57:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatestplus/selenium/,WebBrowser$FrameWebElementTarget.class)
+Nov 16, 2019 2:58:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/svg/,SvgUse.class)
+Nov 16, 2019 2:58:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/dom/,ParentNode$UserDataRecord.class)
+Nov 16, 2019 2:58:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,NTUserPrincipal.class)
+Nov 16, 2019 2:58:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/client/,UserTokenHandler.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.65s
+Nov 16, 2019 3:14:10 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 3:14:10 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 16, 2019 3:14:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 3:14:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 16, 2019 3:14:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 3:14:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 16, 2019 3:14:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 16, 2019 3:14:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1507, 1507, 1523)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$CharOp.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ChildOp.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$RangeOp.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$UnionOp.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ModifierOp.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$ConditionOp.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/html/,Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/cmdline/getopt/,GetOpt$Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/safari/,SafariOptions$Option.class)
+Nov 16, 2019 3:14:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okio/,Options.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1514, 1514, 1530)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1514, 1514, 1524)
+Nov 16, 2019 3:14:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/svg/,SvgUse.class)
+Nov 16, 2019 3:14:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/dom/,ParentNode$UserDataRecord.class)
+Nov 16, 2019 3:14:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,NTUserPrincipal.class)
+Nov 16, 2019 3:14:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/client/,UserTokenHandler.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[models.User]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1514, 1514, 1526)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[models.User]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1514, 1514, 1526)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[models.User]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 1514, 1514, 1526)
+Nov 16, 2019 3:14:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/generic/,BASTORE.class)
+Nov 16, 2019 3:14:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/generic/,BASTORE.class)
+Nov 16, 2019 3:15:19 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/svg/,SvgUse.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.2s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.52s

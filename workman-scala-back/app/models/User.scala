@@ -3,6 +3,7 @@ package models
 import play.api.libs.json.{Json, OFormat}
 import reactivemongo.bson.BSONObjectID
 import reactivemongo.play.json._
+import org.checkerframework.common.aliasing.qual.Unique
 
 case class User(
   username: String,
