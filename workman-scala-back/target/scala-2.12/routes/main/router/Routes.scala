@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes
-// @DATE:Sat Nov 16 12:57:44 EET 2019
+// @DATE:Sat Nov 16 14:22:54 EET 2019
 
 package router
 
@@ -37,6 +37,7 @@ class Routes(
 
   def documentation = List(
     ("""GET""", this.prefix, """controllers.AppController.index"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/users""", """controllers.AppController.listUsers"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -62,6 +63,24 @@ class Routes(
     )
   )
 
+  // @LINE:3
+  private[this] lazy val controllers_AppController_listUsers1_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("api/users")))
+  )
+  private[this] lazy val controllers_AppController_listUsers1_invoker = createInvoker(
+    AppController_0.listUsers,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.AppController",
+      "listUsers",
+      Nil,
+      "GET",
+      this.prefix + """api/users""",
+      """""",
+      Seq()
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -69,6 +88,12 @@ class Routes(
     case controllers_AppController_index0_route(params@_) =>
       call { 
         controllers_AppController_index0_invoker.call(AppController_0.index)
+      }
+  
+    // @LINE:3
+    case controllers_AppController_listUsers1_route(params@_) =>
+      call { 
+        controllers_AppController_listUsers1_invoker.call(AppController_0.listUsers)
       }
   }
 }

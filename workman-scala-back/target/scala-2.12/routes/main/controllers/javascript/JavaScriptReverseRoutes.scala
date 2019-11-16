@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes
-// @DATE:Sat Nov 16 12:57:44 EET 2019
+// @DATE:Sat Nov 16 14:22:54 EET 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -18,6 +18,16 @@ package controllers.javascript {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
+  
+    // @LINE:3
+    def listUsers: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.AppController.listUsers",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/users"})
+        }
+      """
+    )
   
     // @LINE:1
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
