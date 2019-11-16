@@ -23,11 +23,4 @@ class AppController @Inject()(
     )
   }
 
-  def listUsers = Action.async {
-    usersRepo.list().map { users =>
-      Ok(Json.toJson(users))
-    }
-  }
-
-
 }

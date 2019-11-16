@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes
-// @DATE:Sat Nov 16 14:22:54 EET 2019
+// @DATE:Sat Nov 16 15:45:49 EET 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -19,9 +19,29 @@ package controllers.javascript {
     }
 
   
-    // @LINE:3
+    // @LINE:1
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.AppController.index",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + """"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:2
+  class ReverseUserController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:2
     def listUsers: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.AppController.listUsers",
+      "controllers.UserController.listUsers",
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/users"})
@@ -29,12 +49,12 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:1
-    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.AppController.index",
+    // @LINE:5
+    def createUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.UserController.createUser",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + """"})
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "api/users"})
         }
       """
     )

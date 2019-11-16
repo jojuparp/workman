@@ -12,5 +12,6 @@ Päivä | Aika | Mitä tein
 9.11. | 4 | - Viimeistelty ja lisätty mutaatioita
 10.11. | 5 | - Refaktoroitu kyselyitä ja mutaatioita
 12.11. | 4 | - Scala-ohjelmointikielen asennus ja alkeiden opettelu
-13.11. | 8 | - Scalan Play -frameworkiin tutustuminen <br> - Mongon ja Scalan integraation opettelu
-yht. | 47 |
+13.11. | 8 | - Scalan Play -frameworkiin tutustuminen <br> - Mongon ja Playn integraation opettelu
+16.11. | 7 | - Tietokantayhteyden luonti käyttäjille <br> - Kontrolleri käyttäjille
+yht. | 54 |

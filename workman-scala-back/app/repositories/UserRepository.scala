@@ -1,4 +1,5 @@
 package repositories
+
 import javax.inject.Inject
 import scala.concurrent.{ExecutionContext, Future}
 import play.modules.reactivemongo.ReactiveMongoApi

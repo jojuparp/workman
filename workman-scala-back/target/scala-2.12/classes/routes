@@ -1,3 +1,9 @@
-GET   /   controllers.AppController.index
+GET     /               controllers.AppController.index
+GET     /api/users      controllers.UserController.listUsers
+# GET     /api/users/:id  controllers.UserController.readUser(id: BSONObjectID)
 
-GET /api/users controllers.AppController.listUsers
+POST    /api/users      controllers.UserController.createUser
+
+# PUT     /api/users/:id  controllers.UserController.updateUser(id: BSONObjectID)
+
+# DELETE  /api/users/:id  controllers.UserController.deleteUser(id: BSONObjectID)

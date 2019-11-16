@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes
-// @DATE:Sat Nov 16 14:22:54 EET 2019
+// @DATE:Sat Nov 16 15:45:49 EET 2019
 
 import play.api.mvc.Call
 
@@ -18,16 +18,31 @@ package controllers {
     }
 
   
-    // @LINE:3
+    // @LINE:1
+    def index(): Call = {
+      
+      Call("GET", _prefix)
+    }
+  
+  }
+
+  // @LINE:2
+  class ReverseUserController(_prefix: => String) {
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:2
     def listUsers(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "api/users")
     }
   
-    // @LINE:1
-    def index(): Call = {
+    // @LINE:5
+    def createUser(): Call = {
       
-      Call("GET", _prefix)
+      Call("POST", _prefix + { _defaultPrefix } + "api/users")
     }
   
   }

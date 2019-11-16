@@ -1,6 +1,8 @@
-POST http://localhost:9000/posts
+POST http://localhost:9000/api/users
 Content-Type: application/json
 
 {
-  "kokeillaan": "kokeilu"
+  "username": "jojuparp",
+  "name": "Joni Parpala",
+  "admin": true
 }
