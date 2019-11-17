@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes
-// @DATE:Sat Nov 16 15:45:49 EET 2019
+// @DATE:Sun Nov 17 09:04:16 EET 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -39,6 +39,36 @@ package controllers.javascript {
     }
 
   
+    // @LINE:5
+    def createUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.UserController.createUser",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "api/users"})
+        }
+      """
+    )
+  
+    // @LINE:3
+    def readUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.UserController.readUser",
+      """
+        function(id0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/users/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[reactivemongo.bson.BSONObjectID]].javascriptUnbind + """)("id", id0))})
+        }
+      """
+    )
+  
+    // @LINE:9
+    def deleteUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.UserController.deleteUser",
+      """
+        function(id0) {
+          return _wA({method:"DELETE", url:"""" + _prefix + { _defaultPrefix } + """" + "api/users/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[reactivemongo.bson.BSONObjectID]].javascriptUnbind + """)("id", id0))})
+        }
+      """
+    )
+  
     // @LINE:2
     def listUsers: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.UserController.listUsers",
@@ -49,12 +79,12 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:5
-    def createUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.UserController.createUser",
+    // @LINE:7
+    def updateUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.UserController.updateUser",
       """
-        function() {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "api/users"})
+        function(id0) {
+          return _wA({method:"PUT", url:"""" + _prefix + { _defaultPrefix } + """" + "api/users/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[reactivemongo.bson.BSONObjectID]].javascriptUnbind + """)("id", id0))})
         }
       """
     )

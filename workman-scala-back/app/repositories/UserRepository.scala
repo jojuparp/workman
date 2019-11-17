@@ -7,9 +7,10 @@ import reactivemongo.play.json._
 import reactivemongo.play.json.collection.JSONCollection
 import reactivemongo.bson.{BSONDocument, BSONObjectID}
 import reactivemongo.api.{ReadPreference, Cursor}
+import reactivemongo.api.commands.WriteResult
 
 import models.User
-import reactivemongo.api.commands.WriteResult
+
 
 class UserRepository @Inject()(
   implicit ec: ExecutionContext,

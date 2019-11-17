@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes
-// @DATE:Sat Nov 16 15:45:49 EET 2019
+// @DATE:Sun Nov 17 09:04:16 EET 2019
 
 import play.api.mvc.Call
 
@@ -33,16 +33,34 @@ package controllers {
     }
 
   
+    // @LINE:5
+    def createUser(): Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "api/users")
+    }
+  
+    // @LINE:3
+    def readUser(id:reactivemongo.bson.BSONObjectID): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "api/users/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[reactivemongo.bson.BSONObjectID]].unbind("id", id)))
+    }
+  
+    // @LINE:9
+    def deleteUser(id:reactivemongo.bson.BSONObjectID): Call = {
+      
+      Call("DELETE", _prefix + { _defaultPrefix } + "api/users/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[reactivemongo.bson.BSONObjectID]].unbind("id", id)))
+    }
+  
     // @LINE:2
     def listUsers(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "api/users")
     }
   
-    // @LINE:5
-    def createUser(): Call = {
+    // @LINE:7
+    def updateUser(id:reactivemongo.bson.BSONObjectID): Call = {
       
-      Call("POST", _prefix + { _defaultPrefix } + "api/users")
+      Call("PUT", _prefix + { _defaultPrefix } + "api/users/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[reactivemongo.bson.BSONObjectID]].unbind("id", id)))
     }
   
   }

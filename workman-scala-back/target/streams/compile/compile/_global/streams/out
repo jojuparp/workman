@@ -1,45 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:9:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mDELETE  /api/users/:id  controllers.UserController.deleteUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:9:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mDELETE  /api/users/:id  controllers.UserController.deleteUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:7:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mPUT     /api/users/:id  controllers.UserController.updateUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:7:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mPUT     /api/users/:id  controllers.UserController.updateUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:3:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /api/users/:id  controllers.UserController.readUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:3:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /api/users/:id  controllers.UserController.readUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:9:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mDELETE  /api/users/:id  controllers.UserController.deleteUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:7:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mPUT     /api/users/:id  controllers.UserController.updateUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:3:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /api/users/:id  controllers.UserController.readUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:3:1: value readUser is not a member of controllers.UserController[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /api/users/:id  controllers.UserController.readUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:3:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /api/users/:id  controllers.UserController.readUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:3:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /api/users/:id  controllers.UserController.readUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:5:1: value createUser is not a member of controllers.UserController[0m
-[0m[[0m[31merror[0m] [0m[0mPOST    /api/users      controllers.UserController.createUser[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:7:1: value updateUser is not a member of controllers.UserController[0m
-[0m[[0m[31merror[0m] [0m[0mPUT     /api/users/:id  controllers.UserController.updateUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:7:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mPUT     /api/users/:id  controllers.UserController.updateUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:7:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mPUT     /api/users/:id  controllers.UserController.updateUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:9:1: value deleteUser is not a member of controllers.UserController[0m
-[0m[[0m[31merror[0m] [0m[0mDELETE  /api/users/:id  controllers.UserController.deleteUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:9:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mDELETE  /api/users/:id  controllers.UserController.deleteUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:9:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mDELETE  /api/users/:id  controllers.UserController.deleteUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:3:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /api/users/:id  controllers.UserController.readUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:7:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mPUT     /api/users/:id  controllers.UserController.updateUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes:9:1: not found: type BSONObjectID[0m
-[0m[[0m[31merror[0m] [0m[0mDELETE  /api/users/:id  controllers.UserController.deleteUser(id: BSONObjectID)[0m
-[0m[[0m[31merror[0m] [0m[0m22 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/UserController.scala:42:5: not found: value _body[0m
+[0m[[0m[31merror[0m] [0m[0m    _body.validate[User].map { user =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

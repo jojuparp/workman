@@ -10,6 +10,7 @@ import reactivemongo.bson.BSONObjectID
 import repositories.UserRepository
 import models.User
 
+@Singleton
 class UserController @Inject() (
   implicit ec: ExecutionContext,
   cc: ControllerComponents,
@@ -22,14 +23,40 @@ class UserController @Inject() (
     }
   }
 
-  def createUser = Action.async(parse.json) {
-    _.body.validate[User].map { user =>
-      usersRepo.create(user).map { _ => 
-        Created
+  def createUser = Action.async(parse.json) { implicit request =>
+    request.body
+      .validate[User]
+      .map { user =>
+        usersRepo.create(user).map { _ =>
+          Created
+        }
+      }
+      .getOrElse(Future.successful(BadRequest("Invalid format")))
+  }
+
+  def readUser(id: BSONObjectID) = Action.async {
+    usersRepo.read(id).map { maybeUser => 
+      maybeUser.map { user =>
+        Ok(Json.toJson(user))
+      }.getOrElse(NotFound)
+    }
+  }
+
+  def updateUser(id: BSONObjectID) = Action.async(parse.json) { implicit request =>
+    request.body.validate[User].map { user =>
+      usersRepo.update(id, user).map {
+        case Some(user) => Ok(Json.toJson(user))
+        case _          => NotFound
       }
     }.getOrElse(Future.successful(BadRequest("invalid format")))
   }
 
+  def deleteUser(id: BSONObjectID) = Action.async {
+    usersRepo.delete(id).map {
+      case Some(user) => Ok(Json.toJson(user))
+      case _          => NotFound
+    }
+  }
 
 }
 

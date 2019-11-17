@@ -4622,3 +4622,1068 @@ shutdown request received: build/shutdown
 [0m[31m[E][0m BSP server cancelled, closing socket...
 Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
 INFO  bloop exit: 0
+INFO  time: initialize in 1.22s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp11648198279383383135/-em7p7cmrl1r.socket'
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/UserController.scala
+The server is listening for incoming connections at local:///tmp/bsp11648198279383383135/-em7p7cmrl1r.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp11648198279383383135/-em7p7cmrl1r.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 6.46s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.61s
+INFO  time: indexed workspace in 8.49s
+Nov 17, 2019 8:26:17 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/generic/,BASTORE.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/,TypeResolutionStrategy$Active.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/,TypeResolutionStrategy$Active.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,DownAction.class)
+Nov 17, 2019 8:26:30 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,MoveAction.class)
+Nov 17, 2019 8:26:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+Nov 17, 2019 8:27:34 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,Json.class)
+Nov 17, 2019 8:27:34 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonType.class)
+Nov 17, 2019 8:27:34 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonInput.class)
+Nov 17, 2019 8:27:35 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,Json.class)
+Nov 17, 2019 8:27:35 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonType.class)
+Nov 17, 2019 8:27:35 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonInput.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/core/,IsNot.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/compiler/,NotCall.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/xinclude/,XIncludeHandler$Notation.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory1$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory2$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory3$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory4$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory5$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory6$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory7$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory8$OrNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/conditions/message/,NotMessage.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/,Condition$NotMatched.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory1$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory2$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory3$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory4$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory5$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory6$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory7$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory8$AndNotWord.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,DoNotSignal.class)
+Nov 17, 2019 8:27:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runner/notification/,RunNotifier.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 3.08s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.61s
+ERROR Failed to compile 'root'
+Nov 17, 2019 8:28:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Nov 17, 2019 8:28:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.45s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.37s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.44s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.36s
+ERROR Failed to compile 'root'
+Nov 17, 2019 8:28:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Nov 17, 2019 8:28:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Nov 17, 2019 8:29:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Nov 17, 2019 8:29:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.41s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.32s
+ERROR Failed to compile 'root'
+Nov 17, 2019 8:38:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.24s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.25s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 2.51s
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/,TypeResolutionStrategy$Active.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/,TypeResolutionStrategy$Active.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,DownAction.class)
+Nov 17, 2019 8:41:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,MoveAction.class)
+Nov 17, 2019 8:42:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Conductors$Conductor$Setup$.class)
+Nov 17, 2019 8:42:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup.class)
+Nov 17, 2019 8:42:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup$.class)
+Nov 17, 2019 8:42:15 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Conductors$Conductor$Setup$.class)
+Nov 17, 2019 8:42:15 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup.class)
+Nov 17, 2019 8:42:15 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup$.class)
+Nov 17, 2019 8:44:56 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.fromIdentApply$1(Completions.scala:407)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:418)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:44:56 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.fromIdentApply$1(Completions.scala:407)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:418)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:44:57 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.fromIdentApply$1(Completions.scala:407)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:418)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:45:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,Json.class)
+Nov 17, 2019 8:45:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonType.class)
+Nov 17, 2019 8:45:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonInput.class)
+Nov 17, 2019 8:45:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,Json.class)
+Nov 17, 2019 8:45:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonType.class)
+Nov 17, 2019 8:45:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonInput.class)
+Nov 17, 2019 8:45:56 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:462)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:45:56 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:462)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:45:57 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:462)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/core/,IsNot.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/compiler/,NotCall.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/xinclude/,XIncludeHandler$Notation.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory1$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory2$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory3$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory4$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory5$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory6$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory7$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory8$OrNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/conditions/message/,NotMessage.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/,Condition$NotMatched.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory1$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory2$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory3$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory4$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory5$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory6$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory7$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory8$AndNotWord.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,DoNotSignal.class)
+Nov 17, 2019 8:46:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runner/notification/,RunNotifier.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xs/,XSNotationDecl.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dtd/,XMLNotationDecl.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/dom3/as/,ASNotationDeclaration.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/stax/events/,NotationDeclarationImpl.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/http/multipart/,HttpPostRequestDecoder$NotEnoughDataDecoderException.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/http/multipart/,HttpPostRequestDecoder$NotEnoughDataDecoderException.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/core/,IsNot.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/compiler/,NotCall.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/xinclude/,XIncludeHandler$Notation.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory1$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory2$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory3$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory4$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory5$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory6$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory7$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory8$OrNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/conditions/message/,NotMessage.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/,Condition$NotMatched.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory1$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory2$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory3$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory4$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory5$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory6$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory7$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory8$AndNotWord.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,DoNotSignal.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runner/notification/,RunNotifier.class)
+Nov 17, 2019 8:46:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/io/filefilter/,NotFileFilter.class)
+Nov 17, 2019 8:47:09 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 17, 2019 8:47:09 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 17, 2019 8:47:09 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 17, 2019 8:47:09 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/,TypeResolutionStrategy$Active.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/netty/channel/,Channels$Active.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/,TypeResolutionStrategy$Active.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:47:53 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:47:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Action.class)
+Nov 17, 2019 8:47:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/,Actions.class)
+Nov 17, 2019 8:47:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+Nov 17, 2019 8:47:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+Nov 17, 2019 8:47:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,DownAction.class)
+Nov 17, 2019 8:47:54 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,MoveAction.class)
+Nov 17, 2019 8:55:02 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Conductors$Conductor$Setup$.class)
+Nov 17, 2019 8:55:02 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup.class)
+Nov 17, 2019 8:55:02 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,PimpedThreadGroup$.class)
+Nov 17, 2019 8:55:27 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.fromIdentApply$1(Completions.scala:407)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:418)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:55:27 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.fromIdentApply$1(Completions.scala:407)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:418)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:55:28 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.fromIdentApply$1(Completions.scala:407)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:418)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:55:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,Json.class)
+Nov 17, 2019 8:55:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonType.class)
+Nov 17, 2019 8:55:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonInput.class)
+Nov 17, 2019 8:55:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,Json.class)
+Nov 17, 2019 8:55:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonType.class)
+Nov 17, 2019 8:55:40 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonInput.class)
+Nov 17, 2019 8:55:45 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,Json.class)
+Nov 17, 2019 8:55:45 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonType.class)
+Nov 17, 2019 8:55:45 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonInput.class)
+Nov 17, 2019 8:55:46 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,Json.class)
+Nov 17, 2019 8:55:46 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonType.class)
+Nov 17, 2019 8:55:46 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/json/,JsonInput.class)
+Nov 17, 2019 8:56:20 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:462)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:56:20 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:462)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:56:20 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:626)
+	at scala.meta.internal.pc.Completions$CompletionPosition$CaseKeyword.<init>(Completions.scala:1299)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:462)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/core/,IsNot.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/compiler/,NotCall.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/xinclude/,XIncludeHandler$Notation.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory1$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory2$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory3$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory4$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory5$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory6$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory7$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory8$OrNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/conditions/message/,NotMessage.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/hamcrest/,Condition$NotMatched.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory1$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory2$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory3$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory4$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory5$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory6$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory7$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherFactory8$AndNotWord.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,DoNotSignal.class)
+Nov 17, 2019 8:56:25 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runner/notification/,RunNotifier.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.29s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 1.69s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 1.28s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  Deduplicating compilation of root from bsp client 'Metals 0.7.6' (since 46m 8.81s)
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 0.74s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.6s
+Nov 17, 2019 9:25:49 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runner/,FilterFactory$FilterNotCreatedException.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.55s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.21s
+ERROR Failed to compile 'root'
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[<error>]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 489, 489, 502)
+Nov 17, 2019 9:33:57 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/prop/,Shrinker.class)
+Nov 17, 2019 9:33:57 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/prop/,Whenever.class)
+Nov 17, 2019 9:33:57 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/prop/,Shrinker$.class)
+Nov 17, 2019 9:33:57 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,FieldLocator.class)
+Nov 17, 2019 9:33:57 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,ClassWriterStrategy$FrameComputingClassWriter.class)
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[reactivemongo.api.commands.WriteResult]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 920, 920, 939)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.73s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals17006503835435695681/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 5 s, completed Nov 17, 2019, 9:39:33 AM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Total time: 9 s, completed Nov 17, 2019, 9:39:49 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 32s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp16295473987285685243/3by3ntlpc5hm.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp16295473987285685243/3by3ntlpc5hm.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp16295473987285685243/3by3ntlpc5hm.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.47s
+INFO  time: indexed workspace in 2.37s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.62s
+Nov 17, 2019 9:59:48 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/util/security/,Credential.class)
+Nov 17, 2019 9:59:48 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/security/,Credential.class)
+Nov 17, 2019 9:59:48 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(okhttp3/,Credentials.class)
+Nov 17, 2019 9:59:48 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/auth/,Credentials.class)
+Nov 17, 2019 10:00:12 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 17, 2019 10:00:12 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 17, 2019 10:00:12 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 17, 2019 10:00:12 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 17, 2019 10:00:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 17, 2019 10:00:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 17, 2019 10:00:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+Nov 17, 2019 10:00:14 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+Nov 17, 2019 10:00:19 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/,Bad.class)
+Nov 17, 2019 10:00:19 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalactic/,Bad$.class)
+Nov 17, 2019 10:00:19 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/util/resource/,BadResource.class)
+Nov 17, 2019 10:00:19 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/http/,BadMessageException.class)
+Nov 17, 2019 10:00:19 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/websocket/api/,BadPayloadException.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.6s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.49s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.85s
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  time: initialize in 1.74s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp9005781425283398617/l6cr9xtx9qrj.socket'
+INFO  skipping build import with status 'Installed'
+The server is listening for incoming connections at local:///tmp/bsp9005781425283398617/l6cr9xtx9qrj.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp9005781425283398617/l6cr9xtx9qrj.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 8.64s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.54s
+INFO  time: indexed workspace in 9.61s
+WARN  no build target: 
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in scala.concurrent.Future[Seq[models.User]]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 660, 660, 677)
+Nov 17, 2019 11:20:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/util/,UriEncoder.class)
+Nov 17, 2019 11:20:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,FieldLocator.class)
+Nov 17, 2019 11:20:23 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/util/,Utf8UrlEncoder.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 5.38s
+Nov 17, 2019 11:20:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+Nov 17, 2019 11:20:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+Nov 17, 2019 11:20:49 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/util/,UriEncoder.class)
+Nov 17, 2019 11:20:49 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,FieldLocator.class)
+Nov 17, 2019 11:20:49 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/org/asynchttpclient/util/,Utf8UrlEncoder.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.54s
+something's wrong: no file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala in Option[models.User]RangePosition(file:///mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/repositories/UserRepository.scala, 975, 975, 987)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.32s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 1.91s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.85s
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14189661222681506080/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 4 s, completed Nov 17, 2019, 12:08:29 PM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalatestplus.play:scalatestplus-play_2.13:4.0.2
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.scalatestplus.play/scalatestplus-play_2.13/4.0.2/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/4.0.2/scalatestplus-play_2.13-4.0.2.pom
+INFO  [error] Error downloading org.reactivemongo:play2-reactivemongo_2.13:0.12.4
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.reactivemongo/play2-reactivemongo_2.13/0.12.4/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/reactivemongo/play2-reactivemongo_2.13/0.12.4/play2-reactivemongo_2.13-0.12.4.pom
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalatestplus.play:scalatestplus-play_2.13:4.0.2
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.scalatestplus.play/scalatestplus-play_2.13/4.0.2/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/4.0.2/scalatestplus-play_2.13-4.0.2.pom
+INFO  [error] Error downloading org.reactivemongo:play2-reactivemongo_2.13:0.12.4
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /home/ubuntu/.ivy2/local/org.reactivemongo/play2-reactivemongo_2.13/0.12.4/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/reactivemongo/play2-reactivemongo_2.13/0.12.4/play2-reactivemongo_2.13-0.12.4.pom
+INFO  [error] Total time: 1 s, completed Nov 17, 2019, 12:08:36 PM
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 23s
+ERROR sbt command failed: /home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14189661222681506080/sbt-launch.jar metalsEnable bloopInstall
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp17484745333803575583/-corzxro2aw4c.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///tmp/bsp17484745333803575583/-corzxro2aw4c.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp17484745333803575583/-corzxro2aw4c.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.22s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.34s
+INFO  time: indexed workspace in 1.67s
+Nov 17, 2019 12:12:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 198
+WARN  no build target: /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/build.sbt
+WARN  no build target: 
+INFO  running '/home/ubuntu/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13304170526372553444/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/ubuntu/.sbt/1.0/plugins
+INFO  [info] Loading settings for project workman-scala-back-build from plugins.sbt,scaffold.sbt ...
+INFO  [info] Loading project definition from /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+Nov 17, 2019 12:12:33 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/dom/,SingletonIterator.class)
+Nov 17, 2019 12:12:33 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xalan/xsltc/dom/,SimpleResultTreeImpl$SingletonIterator.class)
+Nov 17, 2019 12:12:33 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/net/ftp/,FTPClient$PropertiesSingleton.class)
+Nov 17, 2019 12:12:33 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/dtm/ref/sax2dtm/,SAX2DTM2$TypedSingletonIterator.class)
+Nov 17, 2019 12:12:33 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/resolver/dns/,SingletonDnsServerAddresses.class)
+Nov 17, 2019 12:12:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
+INFO  compiling root (1 scala source)
+INFO  [success] Generated .bloop/workman-scala-back-build.json
+INFO  [success] Total time: 5 s, completed Nov 17, 2019, 12:12:35 PM
+INFO  time: compiled root in 1.17s
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] Set current project to play-scala-seed (in build file:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Total time: 2 s, completed Nov 17, 2019, 12:12:43 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 25s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in /mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp16581508468720818853/-i0gw3ygddgiw.socket'
+The server is listening for incoming connections at local:///tmp/bsp16581508468720818853/-i0gw3ygddgiw.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp16581508468720818853/-i0gw3ygddgiw.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.21s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.28s

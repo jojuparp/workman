@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes
-// @DATE:Sat Nov 16 15:45:49 EET 2019
+// @DATE:Sun Nov 17 09:04:16 EET 2019
 
 
 package router {

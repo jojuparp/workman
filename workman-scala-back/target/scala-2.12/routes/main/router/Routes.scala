@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes
-// @DATE:Sat Nov 16 15:45:49 EET 2019
+// @DATE:Sun Nov 17 09:04:16 EET 2019
 
 package router
 
@@ -42,7 +42,10 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix, """controllers.AppController.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/users""", """controllers.UserController.listUsers"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/users/""" + "$" + """id<[^/]+>""", """controllers.UserController.readUser(id:reactivemongo.bson.BSONObjectID)"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/users""", """controllers.UserController.createUser"""),
+    ("""PUT""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/users/""" + "$" + """id<[^/]+>""", """controllers.UserController.updateUser(id:reactivemongo.bson.BSONObjectID)"""),
+    ("""DELETE""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """api/users/""" + "$" + """id<[^/]+>""", """controllers.UserController.deleteUser(id:reactivemongo.bson.BSONObjectID)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -86,11 +89,29 @@ class Routes(
     )
   )
 
+  // @LINE:3
+  private[this] lazy val controllers_UserController_readUser2_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("api/users/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_UserController_readUser2_invoker = createInvoker(
+    UserController_1.readUser(fakeValue[reactivemongo.bson.BSONObjectID]),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.UserController",
+      "readUser",
+      Seq(classOf[reactivemongo.bson.BSONObjectID]),
+      "GET",
+      this.prefix + """api/users/""" + "$" + """id<[^/]+>""",
+      """""",
+      Seq()
+    )
+  )
+
   // @LINE:5
-  private[this] lazy val controllers_UserController_createUser2_route = Route("POST",
+  private[this] lazy val controllers_UserController_createUser3_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("api/users")))
   )
-  private[this] lazy val controllers_UserController_createUser2_invoker = createInvoker(
+  private[this] lazy val controllers_UserController_createUser3_invoker = createInvoker(
     UserController_1.createUser,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -99,6 +120,42 @@ class Routes(
       Nil,
       "POST",
       this.prefix + """api/users""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:7
+  private[this] lazy val controllers_UserController_updateUser4_route = Route("PUT",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("api/users/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_UserController_updateUser4_invoker = createInvoker(
+    UserController_1.updateUser(fakeValue[reactivemongo.bson.BSONObjectID]),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.UserController",
+      "updateUser",
+      Seq(classOf[reactivemongo.bson.BSONObjectID]),
+      "PUT",
+      this.prefix + """api/users/""" + "$" + """id<[^/]+>""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:9
+  private[this] lazy val controllers_UserController_deleteUser5_route = Route("DELETE",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("api/users/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_UserController_deleteUser5_invoker = createInvoker(
+    UserController_1.deleteUser(fakeValue[reactivemongo.bson.BSONObjectID]),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.UserController",
+      "deleteUser",
+      Seq(classOf[reactivemongo.bson.BSONObjectID]),
+      "DELETE",
+      this.prefix + """api/users/""" + "$" + """id<[^/]+>""",
       """""",
       Seq()
     )
@@ -119,10 +176,28 @@ class Routes(
         controllers_UserController_listUsers1_invoker.call(UserController_1.listUsers)
       }
   
+    // @LINE:3
+    case controllers_UserController_readUser2_route(params@_) =>
+      call(params.fromPath[reactivemongo.bson.BSONObjectID]("id", None)) { (id) =>
+        controllers_UserController_readUser2_invoker.call(UserController_1.readUser(id))
+      }
+  
     // @LINE:5
-    case controllers_UserController_createUser2_route(params@_) =>
+    case controllers_UserController_createUser3_route(params@_) =>
       call { 
-        controllers_UserController_createUser2_invoker.call(UserController_1.createUser)
+        controllers_UserController_createUser3_invoker.call(UserController_1.createUser)
+      }
+  
+    // @LINE:7
+    case controllers_UserController_updateUser4_route(params@_) =>
+      call(params.fromPath[reactivemongo.bson.BSONObjectID]("id", None)) { (id) =>
+        controllers_UserController_updateUser4_invoker.call(UserController_1.updateUser(id))
+      }
+  
+    // @LINE:9
+    case controllers_UserController_deleteUser5_route(params@_) =>
+      call(params.fromPath[reactivemongo.bson.BSONObjectID]("id", None)) { (id) =>
+        controllers_UserController_deleteUser5_invoker.call(UserController_1.deleteUser(id))
       }
   }
 }

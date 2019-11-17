@@ -22,8 +22,10 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sksamuel/scapegoat/scalac-scapegoat-plugin_2.12/1.3.0/scalac-scapegoat-plugin_2.12-1.3.0.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.34.Final/netty-transport-native-epoll-4.1.34.Final-linux-x86_64.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.3/play-ws-standalone-json_2.12-2.0.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/1.9.2/joda-convert-1.9.2.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.1/play-ws_2.12-2.7.1.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.33/htmlunit-core-js-2.33.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar",
@@ -35,11 +37,11 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.8/akka-parsing_2.12-10.1.8.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/4.0.3/scalatestplus-play_2.12-4.0.3.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.5/cachecontrol_2.12-1.1.5.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.8/scalatest_2.12-3.0.8.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.3/shaded-oauth-2.0.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.33.3/htmlunit-driver-2.33.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar",
@@ -60,7 +62,6 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.23/akka-stream_2.12-2.5.23.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.6/play-ws-standalone-xml_2.12-2.0.6.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.12.v20180830/websocket-client-9.4.12.v20180830.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.3/netty-reactive-streams-http-2.0.3.jar",
@@ -75,18 +76,17 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.3/play-server_2.12-2.7.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/4.0.2/scalatestplus-play_2.12-4.0.2.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.34.Final/netty-common-4.1.34.Final.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.7/cachecontrol_2.12-1.1.7.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.12/0.12.4/reactivemongo-bson-macros_2.12-0.12.4.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.6/play-ws-standalone-json_2.12-2.0.6.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.23/akka-actor_2.12-2.5.23.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.7.4/play-json_2.12-2.7.4.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.8/jackson-datatype-jsr310-2.9.8.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.6/shaded-asynchttpclient-2.0.6.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.3/play-exceptions-2.7.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.2.0/htmlunit-cssparser-1.2.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson_2.12/0.12.4/reactivemongo-bson_2.12-0.12.4.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
@@ -94,6 +94,7 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.3/play-ws-standalone-xml_2.12-2.0.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.3/filters-helpers_2.12-2.7.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
@@ -102,6 +103,7 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.8/akka-http-core_2.12-10.1.8.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.1/play-ahc-ws_2.12-2.7.1.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-play-json_2.12/0.12.4/reactivemongo-play-json_2.12-0.12.4.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo_2.12/0.12.4/reactivemongo_2.12-0.12.4.jar",
@@ -110,9 +112,7 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.6/play-ws-standalone_2.12-2.0.6.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.8/scalactic_2.12-3.0.8.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-iteratees-reactive-streams_2.12/2.6.1/play-iteratees-reactive-streams_2.12-2.6.1.jar",
@@ -133,10 +133,9 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.6/play-ahc-ws-standalone_2.12-2.0.6.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.3/play-ahc-ws_2.12-2.7.3.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.12.v20180830/jetty-client-9.4.12.v20180830.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.3/play-ws_2.12-2.7.3.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.3/shaded-asynchttpclient-2.0.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.9.0/scala-java8-compat_2.12-0.9.0.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.jar",
@@ -148,10 +147,11 @@
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.34.Final/netty-transport-4.1.34.Final.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.3/play-ws-standalone_2.12-2.0.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.12.v20180830/websocket-common-9.4.12.v20180830.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar",
-            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.6/shaded-oauth-2.0.6.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.3/play-ahc-ws-standalone_2.12-2.0.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.7.3/play-streams_2.12-2.7.3.jar",
             "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.jar",
@@ -378,6 +378,23 @@
                     ]
                 },
                 {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-ws-standalone-json_2.12",
+                    "version" : "2.0.3",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-ws-standalone-json_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.3/play-ws-standalone-json_2.12-2.0.3.jar"
+                        },
+                        {
+                            "name" : "play-ws-standalone-json_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.3/play-ws-standalone-json_2.12-2.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization" : "org.joda",
                     "name" : "joda-convert",
                     "version" : "1.9.2",
@@ -408,6 +425,23 @@
                             "name" : "httpmime",
                             "classifier" : "sources",
                             "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-ws_2.12",
+                    "version" : "2.7.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-ws_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.1/play-ws_2.12-2.7.1.jar"
+                        },
+                        {
+                            "name" : "play-ws_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.1/play-ws_2.12-2.7.1-sources.jar"
                         }
                     ]
                 },
@@ -599,19 +633,19 @@
                     ]
                 },
                 {
-                    "organization" : "org.scalatestplus.play",
-                    "name" : "scalatestplus-play_2.12",
-                    "version" : "4.0.3",
+                    "organization" : "com.typesafe.play",
+                    "name" : "cachecontrol_2.12",
+                    "version" : "1.1.5",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "scalatestplus-play_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/4.0.3/scalatestplus-play_2.12-4.0.3.jar"
+                            "name" : "cachecontrol_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.5/cachecontrol_2.12-1.1.5.jar"
                         },
                         {
-                            "name" : "scalatestplus-play_2.12",
+                            "name" : "cachecontrol_2.12",
                             "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/4.0.3/scalatestplus-play_2.12-4.0.3-sources.jar"
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.5/cachecontrol_2.12-1.1.5-sources.jar"
                         }
                     ]
                 },
@@ -650,23 +684,6 @@
                     ]
                 },
                 {
-                    "organization" : "org.scalatest",
-                    "name" : "scalatest_2.12",
-                    "version" : "3.0.8",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "scalatest_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.8/scalatest_2.12-3.0.8.jar"
-                        },
-                        {
-                            "name" : "scalatest_2.12",
-                            "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.8/scalatest_2.12-3.0.8-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization" : "org.codehaus.mojo",
                     "name" : "animal-sniffer-annotations",
                     "version" : "1.17",
@@ -680,6 +697,23 @@
                             "name" : "animal-sniffer-annotations",
                             "classifier" : "sources",
                             "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "shaded-oauth",
+                    "version" : "2.0.3",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "shaded-oauth",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.3/shaded-oauth-2.0.3.jar"
+                        },
+                        {
+                            "name" : "shaded-oauth",
+                            "classifier" : "sources",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.3/shaded-oauth-2.0.3-sources.jar"
                         }
                     ]
                 },
@@ -1024,23 +1058,6 @@
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play-ws-standalone-xml_2.12",
-                    "version" : "2.0.6",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "play-ws-standalone-xml_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.6/play-ws-standalone-xml_2.12-2.0.6.jar"
-                        },
-                        {
-                            "name" : "play-ws-standalone-xml_2.12",
-                            "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.6/play-ws-standalone-xml_2.12-2.0.6-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization" : "org.eclipse.jetty.websocket",
                     "name" : "websocket-client",
                     "version" : "9.4.12.v20180830",
@@ -1279,6 +1296,23 @@
                     ]
                 },
                 {
+                    "organization" : "org.scalatestplus.play",
+                    "name" : "scalatestplus-play_2.12",
+                    "version" : "4.0.2",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scalatestplus-play_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/4.0.2/scalatestplus-play_2.12-4.0.2.jar"
+                        },
+                        {
+                            "name" : "scalatestplus-play_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/4.0.2/scalatestplus-play_2.12-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization" : "org.seleniumhq.selenium",
                     "name" : "selenium-java",
                     "version" : "3.141.59",
@@ -1313,23 +1347,6 @@
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.play",
-                    "name" : "cachecontrol_2.12",
-                    "version" : "1.1.7",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "cachecontrol_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.7/cachecontrol_2.12-1.1.7.jar"
-                        },
-                        {
-                            "name" : "cachecontrol_2.12",
-                            "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/1.1.7/cachecontrol_2.12-1.1.7-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization" : "org.reactivemongo",
                     "name" : "reactivemongo-bson-macros_2.12",
                     "version" : "0.12.4",
@@ -1343,23 +1360,6 @@
                             "name" : "reactivemongo-bson-macros_2.12",
                             "classifier" : "sources",
                             "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivemongo/reactivemongo-bson-macros_2.12/0.12.4/reactivemongo-bson-macros_2.12-0.12.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play-ws-standalone-json_2.12",
-                    "version" : "2.0.6",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "play-ws-standalone-json_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.6/play-ws-standalone-json_2.12-2.0.6.jar"
-                        },
-                        {
-                            "name" : "play-ws-standalone-json_2.12",
-                            "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.0.6/play-ws-standalone-json_2.12-2.0.6-sources.jar"
                         }
                     ]
                 },
@@ -1415,23 +1415,6 @@
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.play",
-                    "name" : "shaded-asynchttpclient",
-                    "version" : "2.0.6",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "shaded-asynchttpclient",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.6/shaded-asynchttpclient-2.0.6.jar"
-                        },
-                        {
-                            "name" : "shaded-asynchttpclient",
-                            "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.6/shaded-asynchttpclient-2.0.6-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization" : "org.seleniumhq.selenium",
                     "name" : "selenium-firefox-driver",
                     "version" : "3.141.59",
@@ -1479,6 +1462,23 @@
                             "name" : "htmlunit-cssparser",
                             "classifier" : "sources",
                             "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.2.0/htmlunit-cssparser-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scalatest",
+                    "name" : "scalatest_2.12",
+                    "version" : "3.0.5",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scalatest_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar"
+                        },
+                        {
+                            "name" : "scalatest_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar"
                         }
                     ]
                 },
@@ -1603,6 +1603,23 @@
                 },
                 {
                     "organization" : "com.typesafe.play",
+                    "name" : "play-ws-standalone-xml_2.12",
+                    "version" : "2.0.3",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-ws-standalone-xml_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.3/play-ws-standalone-xml_2.12-2.0.3.jar"
+                        },
+                        {
+                            "name" : "play-ws-standalone-xml_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.0.3/play-ws-standalone-xml_2.12-2.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
                     "name" : "filters-helpers_2.12",
                     "version" : "2.7.3",
                     "configurations" : "default",
@@ -1717,6 +1734,23 @@
                             "name" : "jetty-io",
                             "classifier" : "sources",
                             "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-ahc-ws_2.12",
+                    "version" : "2.7.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-ahc-ws_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.1/play-ahc-ws_2.12-2.7.1.jar"
+                        },
+                        {
+                            "name" : "play-ahc-ws_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.1/play-ahc-ws_2.12-2.7.1-sources.jar"
                         }
                     ]
                 },
@@ -1857,23 +1891,6 @@
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play-ws-standalone_2.12",
-                    "version" : "2.0.6",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "play-ws-standalone_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.6/play-ws-standalone_2.12-2.0.6.jar"
-                        },
-                        {
-                            "name" : "play-ws-standalone_2.12",
-                            "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.6/play-ws-standalone_2.12-2.0.6-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization" : "com.typesafe.netty",
                     "name" : "netty-reactive-streams",
                     "version" : "2.0.3",
@@ -1887,23 +1904,6 @@
                             "name" : "netty-reactive-streams",
                             "classifier" : "sources",
                             "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "org.scalactic",
-                    "name" : "scalactic_2.12",
-                    "version" : "3.0.8",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "scalactic_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.8/scalactic_2.12-3.0.8.jar"
-                        },
-                        {
-                            "name" : "scalactic_2.12",
-                            "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.8/scalactic_2.12-3.0.8-sources.jar"
                         }
                     ]
                 },
@@ -2243,36 +2243,19 @@
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play-ahc-ws-standalone_2.12",
-                    "version" : "2.0.6",
+                    "organization" : "org.scalactic",
+                    "name" : "scalactic_2.12",
+                    "version" : "3.0.5",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "play-ahc-ws-standalone_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.6/play-ahc-ws-standalone_2.12-2.0.6.jar"
+                            "name" : "scalactic_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar"
                         },
                         {
-                            "name" : "play-ahc-ws-standalone_2.12",
+                            "name" : "scalactic_2.12",
                             "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.6/play-ahc-ws-standalone_2.12-2.0.6-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play-ahc-ws_2.12",
-                    "version" : "2.7.3",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "play-ahc-ws_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.3/play-ahc-ws_2.12-2.7.3.jar"
-                        },
-                        {
-                            "name" : "play-ahc-ws_2.12",
-                            "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.7.3/play-ahc-ws_2.12-2.7.3-sources.jar"
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar"
                         }
                     ]
                 },
@@ -2295,18 +2278,18 @@
                 },
                 {
                     "organization" : "com.typesafe.play",
-                    "name" : "play-ws_2.12",
-                    "version" : "2.7.3",
+                    "name" : "shaded-asynchttpclient",
+                    "version" : "2.0.3",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "play-ws_2.12",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.3/play-ws_2.12-2.7.3.jar"
+                            "name" : "shaded-asynchttpclient",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.3/shaded-asynchttpclient-2.0.3.jar"
                         },
                         {
-                            "name" : "play-ws_2.12",
+                            "name" : "shaded-asynchttpclient",
                             "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.7.3/play-ws_2.12-2.7.3-sources.jar"
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.0.3/shaded-asynchttpclient-2.0.3-sources.jar"
                         }
                     ]
                 },
@@ -2498,6 +2481,23 @@
                     ]
                 },
                 {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-ws-standalone_2.12",
+                    "version" : "2.0.3",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-ws-standalone_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.3/play-ws-standalone_2.12-2.0.3.jar"
+                        },
+                        {
+                            "name" : "play-ws-standalone_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.0.3/play-ws-standalone_2.12-2.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization" : "org.seleniumhq.selenium",
                     "name" : "selenium-safari-driver",
                     "version" : "3.141.59",
@@ -2550,18 +2550,18 @@
                 },
                 {
                     "organization" : "com.typesafe.play",
-                    "name" : "shaded-oauth",
-                    "version" : "2.0.6",
+                    "name" : "play-ahc-ws-standalone_2.12",
+                    "version" : "2.0.3",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "shaded-oauth",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.6/shaded-oauth-2.0.6.jar"
+                            "name" : "play-ahc-ws-standalone_2.12",
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.3/play-ahc-ws-standalone_2.12-2.0.3.jar"
                         },
                         {
-                            "name" : "shaded-oauth",
+                            "name" : "play-ahc-ws-standalone_2.12",
                             "classifier" : "sources",
-                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.0.6/shaded-oauth-2.0.6-sources.jar"
+                            "path" : "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.0.3/play-ahc-ws-standalone_2.12-2.0.3-sources.jar"
                         }
                     ]
                 },
