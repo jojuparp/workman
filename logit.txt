@@ -1,0 +1,257 @@
+commit be9d9b031a34b8f2c96501829bdaa2053065a291
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 17 12:37:26 2019 +0200
+
+    käyttäjän kontrolleri valmis
+
+commit 810ee1ab4a54b3463eb0ffbab38e4ec4cbec9874
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 16 15:59:57 2019 +0200
+
+    kontrolleriluokan aloitus käyttäjille
+
+commit 121233433575337cf188f74c8205842af90a4689
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 16 15:16:11 2019 +0200
+
+    käyttäjän alustavat crud-operaatiot valmiina
+
+commit 17445d77917b30ac8f5c8d237e04a2acfc7f2cc8
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 16 14:27:07 2019 +0200
+
+    lisätty mongoose skeema ja get-metodi käyttäjille
+
+commit 0a972607ccad4a63646af3878bfaccd9eeb0496c
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 16 13:01:27 2019 +0200
+
+    mongodb integraatio uuden backendin kanssa
+
+commit 1080f85788800665c36067d8d4a686e33423e5ce
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Wed Nov 13 15:30:39 2019 +0200
+
+    työkirja päivitetty
+
+commit fadeaf30b7ffc49b182ca5645e61b75ecef40fe7
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Tue Nov 12 16:00:01 2019 +0200
+
+    työkirja päivitetty
+
+commit 77d873308ad560a1072038edf1e5d4b855483e23
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 10 15:58:49 2019 +0200
+
+    refaktoroity kyselyjä ja mutaatioita
+
+commit 70750f60851d362421c22f088a57c4135db07bc3
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 10 15:01:26 2019 +0200
+
+    refaktoroitu mutaatioita ja lisätty kyselyjä
+
+commit 47b65eea2c0e8ac571c0182378bd6d685c17a5f3
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 10 13:01:34 2019 +0200
+
+    refaktoroitu mutaatioita
+
+commit f302058e37cc6bd97223e2259b13299308c87e96
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 10 10:59:22 2019 +0200
+
+    lisätty mutaatioita ja refaktoroitu kysely
+
+commit b6b326564f55f6e4ed1ac396b6795db749ecde50
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 9 16:48:13 2019 +0200
+
+    viimeistelty ja lisätty mutaatioita
+
+commit eaee828e78c5c86f7fc609316aa6fdaa2c5d0df4
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 9 15:51:02 2019 +0200
+
+    viimeistelty mutaatio käyttäjän tilan muokkaamiselle
+
+commit a50f9eae4c764d4c5fc7ba30cbe056f45a2ee6be
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 9 10:50:58 2019 +0200
+
+    jatkettu mutaatiota dokumentin tilan muuttamiselle
+
+commit 6ef607c2fed111a5ad6127e29ba472e116210174
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 9 10:17:22 2019 +0200
+
+    jatkettu mutaatiota dokumentin tilan muuttamiselle
+
+commit c39dbdee695e37e8ad5275dbb5a8e760af43c8bd
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Fri Nov 8 15:16:40 2019 +0200
+
+    työkirja päivitetty
+
+commit ae54b7c602b14d7a901115a5271f85597379b525
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Fri Nov 8 15:14:36 2019 +0200
+
+    aloitettu mutaatio työtehtävän suorittamiseksi sekä viimeistelty mutaatio työtehtävän lisäämiselle
+
+commit 4fc7c2d702ff988eace302c58dbfdc7d8c85a5d2
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Fri Nov 8 12:37:17 2019 +0200
+
+    laajennettu kyselyä työtehtävän lisäämiselle
+
+commit 3b8f8c7e960e02f29b9f15e99db9d6e457301594
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Nov 7 15:58:18 2019 +0200
+
+    työkirja päivitetty
+
+commit 515b399bd62931efefa882ffa4b61c28fe236ef6
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Nov 7 15:56:04 2019 +0200
+
+    laajennettu kyselyä uuden työtehtävän lisäämiselle
+
+commit 17d4ddf087cbff9f97fa83251b838fc4fd237030
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Nov 7 15:03:11 2019 +0200
+
+    lisätty graphql-kysely uuden työtehtävän lisäämiselle sekä virheenkäsittelyjä
+
+commit ccc5e444e5af0c6c25d3b8bf56ec182e8a94302f
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Nov 7 14:21:56 2019 +0200
+
+    lisätty backenddin salasanan kryptaus, lisätty kirjautuminen frontendiin
+
+commit a8a17c41d3ec093aaa6a26400d86688243a313a4
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Wed Nov 6 16:40:22 2019 +0200
+
+    lisätty komponentteja fronttiin ja refaktoroitu tyylejä
+
+commit a2a6562864c1027a8d5e0528d91d87c8c6d61e29
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Tue Nov 5 12:00:32 2019 +0200
+
+    refaktorointia
+
+commit 792552ec53f6a943de685228d5c1841766b300c4
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Tue Nov 5 11:01:08 2019 +0200
+
+    aloitettu kaikki tarvittavat graphql skeemat
+
+commit 2374823e4f03d5e519123285755731e7aa1d218e
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Mon Nov 4 15:35:39 2019 +0200
+
+    refaktoroitu graphql kyselyt ja resolverit omiintiedostoihin
+
+commit 6a9b60d2f578fd8668c1e4890b945e5b2b583531
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Mon Nov 4 11:28:01 2019 +0200
+
+    lisätty palvelin- ja tietokantayhteydet backendiin
+
+commit c337ee909b73adf389614c6bd8ae7464e014287b
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Mon Nov 4 10:23:52 2019 +0200
+
+    lisätty mongoose-skeemat
+
+commit 2a6eaaf56e72a3afc88854312e9c01b1fce0ff33
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 3 16:25:11 2019 +0200
+
+    päivitetty työkirja
+
+commit 69af407b6e70474d09241493e7faa2926628c1d3
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 3 16:23:42 2019 +0200
+
+    päivitettiin gitignore
+
+commit 9fa02f76f89ef069c3911a304a9b3176f1c7e272
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 3 16:22:12 2019 +0200
+
+    backend aloitettu
+
+commit f2bef0594da29f7b76d14fd23363716f68b5788d
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sun Nov 3 15:40:49 2019 +0200
+
+    lisätty loput käyttöliittymäsuunnitelman komponentit
+
+commit 965eb1168724047cdcfa5d842f6dc0beb8206c7f
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 2 15:50:08 2019 +0200
+
+    päivän työaika lisätty
+
+commit 109cacd07cf84fd3c187e89889c6a39895865acb
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 2 12:23:23 2019 +0200
+
+    lisättiin komponentteja ja laajennettiin navigointipalkkia
+
+commit 8ced5a9f1c5e54831af44809d7809b1d9de1a6c0
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Sat Nov 2 10:22:42 2019 +0200
+
+    lisättiin menubar ja muita alustavia näkymiä
+
+commit b52167cb39ae5143f5e44a54ea96004290e0466a
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Fri Nov 1 09:52:44 2019 +0200
+
+    lisättiin loginform -komponentti sekä oma hoom
+
+commit 8360b80707fbbeae980d584d7a02797e7fbe492b
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Oct 31 15:14:25 2019 +0200
+
+    muutokset
+
+commit 8c040bc786dd7970d3fc9a2383beeaaf8f6d5e43
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Oct 31 15:11:28 2019 +0200
+
+    muutoksia tyoaikaan
+
+commit 743cf78cb8ff421129248669f377cfea829d8f94
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Oct 31 15:10:43 2019 +0200
+
+    muutoksia
+
+commit b14f88d4fcbc1c556b3747863024f6d4aeeafad5
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Oct 31 15:09:16 2019 +0200
+
+    muutoksia
+
+commit ce2489b9c2e278e82449d93bdbd04577097d6609
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Oct 31 15:06:51 2019 +0200
+
+    second commit
+
+commit a46cdb8025dd6f9f4c341403e24000c593fe1acf
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Oct 31 15:04:28 2019 +0200
+
+    initial commit
+
+commit 7ef364e0bd359468841e677d48dc1aaeff9fdbc1
+Author: Joni Parpala <parpala.joni@gmail.com>
+Date:   Thu Oct 31 15:01:44 2019 +0200
+
+    projektin readme

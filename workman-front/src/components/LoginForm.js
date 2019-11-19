@@ -44,7 +44,7 @@ const LoginForm = ({ login, setToken }) => {
             value={pw.value}
             onChange={pw.onChange}
           />
-          <Button style={buttonStyle} variant="primary" type="submit">
+          <Button style={buttonStyle} variant="primary" type="submit" onClick={() => submit}>
             login
           </Button>
         </Form.Group>

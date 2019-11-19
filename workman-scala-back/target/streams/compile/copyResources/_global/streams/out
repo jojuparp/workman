@@ -1,5 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/application.conf,/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/target/scala-2.12/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/logback.xml,/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/messages,/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/target/scala-2.12/classes/messages)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/conf/routes,/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/target/scala-2.12/classes/routes)[0m

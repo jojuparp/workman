@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Joni/devel/WorkMan/workman-scala-back/app/controllers/UserController.scala:42:5: not found: value _body[0m
-[0m[[0m[31merror[0m] [0m[0m    _body.validate[User].map { user =>[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
