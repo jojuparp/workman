@@ -24,6 +24,8 @@ type Job {
   type: JobType!
   users: [User!]
   parts: [Part!]
+  customerName: String!
+  customerPhone: String!
   address: String!
   description: String!
   startDate: String
@@ -50,36 +52,28 @@ extend type Mutation {
     type: String!
     users: [String!]
     parts: [String!]
+    customerName: String!
+    customerPhone: String!
     address: String!
     description: String!
-    startDate: String
-    endDate: String
-    completed: Boolean
+    date: String
   ): Job
 
   setJobCompleted(
     id: String!
-  ): Job!
-
-  assignJob(
-    jobId: String!
-    userIds: [String!]
-  ): Job!
-
-  removeAssigned(
-    jobId: String!
-    userId: String!
+    setCompletedDate: String!
   ): Job!
 
   editJob(
     jobId: String!
-    setType: String
+    setType: String!
     setUsers: [String!]
     setParts: [String!]
-    setAddress: String
-    setDescription: String
-    setStartDate: String
-    setEndDate: String
+    setCustomerName: String!
+    setCustomerPhone: String!
+    setAddress: String!
+    setDescription: String!
+    setDate: String!
   ): Job!
 
   changeType(
@@ -127,10 +121,18 @@ const resolvers = {
 
       const type = await JobType.findOne({ name: args.type })
 
-      const job = new Job({ ...args, type: type._id, completed: false })
+      const date = new Date(args.date)
+
+      const job = new Job({ 
+        ...args, 
+        type: type._id, 
+        completed: '',
+        users: [], 
+        date: date
+      })
 
       if (args.users) {
-        const users = await User.find({ username: args.users })
+        const users = await User.find({ name: args.users })
         const ids = users.map(user => user._id)
         job.users = job.users.concat(ids)
         
@@ -168,7 +170,7 @@ const resolvers = {
 
       const jobToEdit = await Job.findById(args.id)
 
-      jobToEdit.completed = true
+      jobToEdit.completed = args.setCompletedDate
       
       const usersToEdit = await User.find({ jobs: { $in: args.id } })
 
@@ -194,16 +196,69 @@ const resolvers = {
       return jobToEdit
     },
 
-    assignJob: async (root, args, { currentUser }) => {
+    editJob: async (root, args, { currentUser }) => {
 
       if (!currentUser) {
         throw new AuthenticationError('not authenticated')
       }
 
-      const job = await Job.findOne({ _id: args.jobId })
-      const users = await User.find({ _id: { $in: args.userIds } })
+      const job = await Job.findById(args.jobId)
 
-      const ids = users.map(user => user._id)
+      //changing address
+      job.address = args.setAddress
+
+      //changing customer name and number
+      job.customerName = args.setCustomerName
+
+      job.customerPhone = args.setCustomerPhone
+
+      //changing description
+      job.description = args.setDescription
+
+      //changing job start date
+      job.date = args.setDate
+
+      //changing type
+      const type = await JobType.findOne({ name: args.setType })
+
+      job.type = type._id
+
+      //changing assigned parts
+      job.parts = []
+      const parts = await Part.find({ name: args.parts })
+      const partIds = parts.map(part => part._id)
+      job.parts = job.parts.concat(partIds)
+
+      //changing assigned users
+      job.users = []
+
+      const usersToAssign = await User.find({ name: { $in: args.setUsers } })
+
+      const usersToEdit = await User.find({ jobs: { $in: args.jobId } })
+
+      usersToAssign.map(async user => {
+        user.jobs = user.jobs.concat(args.jobId)
+        await user.save()
+          .catch(error => {
+            throw new UserInputError(error.message, {
+              invalidArgs: args,
+            })
+          })
+      })
+
+      usersToEdit.map(async user => {
+        user.jobs = user.jobs.filter(job => {
+          return !job.equals(args.jobId)
+        })
+        await user.save()
+          .catch(error => {
+            throw new UserInputError(error.message, {
+              invalidArgs: args,
+            })
+          })
+      })
+
+      const ids = usersToAssign.map(user => user._id)
 
       job.users = job.users.concat(ids)
       await job.save()
@@ -213,70 +268,8 @@ const resolvers = {
           })
         })
 
-      users.map(async user => {
-        user.jobs = user.jobs.concat(job._id)
-        await user.save()
-          .catch(error => {
-            throw new UserInputError(error.message, {
-              invalidArgs: args,
-            })
-          })
-      })
-
-      return job
-    },
-
-    removeAssigned: async (root, args, { currentUser }) => {
-      
-      if (!currentUser) {
-        throw new AuthenticationError('not authenticated')
-      }
-
-      const job = await Job.findOne({ _id: args.jobId })
-      const user = await User.findOne({ _id: args.userId })
-
-      job.users = job.users.filter(user => {
-        return !user.equals(args.userId)
-      })
-
-      await job.save()
-        .catch(error => {
-          throw new UserInputError(error.message, {
-            invalidArgs: args,
-          })
-        })
-
-      user.jobs = user.jobs.filter(job => {
-        return !job.equals(args.jobId)
-      })
-
-      await user.save()
-        .catch(error => {
-          throw new UserInputError(error.message, {
-            invalidArgs: args,
-          })
-        })
-
-      return job
-    },
-
-    changeType: async (root, args, { currentUser }) => {
-
-      if (!currentUser) {
-        throw new AuthenticationError('not authenticated')
-      }
-
-      const job = await Job.findById(args.jobId)
-      const type = await JobType.findOne({ name: args.setTypeTo })
-
-      job.type = type._id
-
       return await job.save()
-        .catch(error => {
-          throw new UserInputError(error.message, {
-            invalidArgs: args,
-          })
-        })
+
     },
   
   }

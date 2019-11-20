@@ -9,6 +9,9 @@ const schema = new mongoose.Schema({
   hourlyRate: {
     type: Number,
     required: true
+  },
+  totalHoursDone: {
+    type: Number
   }
 })
 

@@ -16,4 +16,5 @@ Päivä | Aika | Mitä tein
 16.11. | 5 | - Tietokannan refaktorointia, <br> kyselyjen ja mutaatioiden refaktorointia
 17.11. | 5 | - Lisätty kyselyjä ja mutaatioita frontendiin
 19.11. | 3 | - Refaktoroitu koodia
+20.11. | 4 | - Refaktoroitu mutaatioita
 yht. | 61 |

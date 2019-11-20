@@ -12,6 +12,14 @@ const schema = new mongoose.Schema({
   parts: [
     { type: mongoose.Schema.Types.ObjectId, ref: 'Part' }
   ],
+  customerName: {
+    type: String,
+    required: true
+  },
+  customerPhone: {
+    type: String,
+    required: true
+  },
   address: {
     type: String,
     required: true
@@ -20,17 +28,15 @@ const schema = new mongoose.Schema({
     type: String,
     required: true
   },
-  startDate: {
+  date: {
     type: Date,
-  },
-  endDate: {
-    type: Date,
+    required: true
   },
   totalTime: {
     type: Number,
   },
   completed: {
-    type: Boolean,
+    type: Date,
   },
 
 })

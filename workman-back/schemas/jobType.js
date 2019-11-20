@@ -6,6 +6,7 @@ const typeDefs = `
 type JobType {
   name: String!
   hourlyRate: Float!
+  totalHoursDone: Float
   id: ID!
 }
 

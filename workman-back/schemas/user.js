@@ -87,9 +87,9 @@ const resolvers = {
         throw new UserInputError('password too short!')
       }
 
-      if (!currentUser) {
+      /* if (!currentUser) {
         throw new AuthenticationError('not authenticated')
-      }
+      } */
 
       const saltRounds = 10
       const passwordHash = await bcrypt.hash(args.password, saltRounds)
@@ -104,11 +104,7 @@ const resolvers = {
         })
     },
 
-    login: async (root, args, { currentUser }) => {
-
-      /* if (!currentUser) {
-        throw new AuthenticationError('not authenticated')
-      } */
+    login: async (root, args) => {
 
       const user = await User.findOne({ username: args.username })
 
