@@ -1,10 +1,13 @@
 const mongoose = require('mongoose')
+const uniqueValidator = require('mongoose-unique-validator')
 
 const schema = new mongoose.Schema({
   
   name: {
     type: String,
-    required: true
+    required: true,
+    unique: true
+
   },
   price: {
     type: Number,
@@ -12,5 +15,7 @@ const schema = new mongoose.Schema({
   }
   
 })
+
+schema.plugin(uniqueValidator)
 
 module.exports = mongoose.model('Part', schema)
