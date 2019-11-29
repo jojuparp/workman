@@ -17,4 +17,5 @@ Päivä | Aika | Mitä tein
 17.11. | 5 | - Lisätty kyselyjä ja mutaatioita frontendiin
 19.11. | 3 | - Refaktoroitu koodia
 20.11. | 4 | - Refaktoroitu mutaatioita
-yht. | 61 |
+29.11. | 4 | - Refaktoroitu mongo-skeemoja <br> - Selvitetty tapoja SPA-toteutukselle apollo-serverin kanssa
+yht. | 69 |
