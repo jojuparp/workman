@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Button, Form, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import {
   BrowserRouter as Router,
@@ -6,6 +6,8 @@ import {
 } from 'react-router-dom'
 
 import { works } from '../data/data'
+
+import CURRENT_USER from '../graphql/queries/currentUser'
 
 import AdminView from './AdminView'
 import UserList from './UserList'
@@ -18,12 +20,15 @@ import ModifyView from './ModifyView'
 import WorkCompleted from './WorkCompleted'
 import UserForm from './UserForm'
 import WorkTypeForm from './WorkTypeForm'
+import { useApolloClient } from 'react-apollo'
 
-const Menu = ({ setToken, result }) => {
+const Menu = ({ setToken, result}) => {
 
   if (result.loading) {
     return <div>loading...</div>
   }
+  
+  //const [user, setUser] = useState(result.data.currentUser)
 
   const padding = {
     padding: 5,
@@ -31,6 +36,12 @@ const Menu = ({ setToken, result }) => {
 
   const workById = id => {
     return works.find(w => w.id === Number(id))
+  }
+
+  const logout = () => {
+    localStorage.clear()
+    setToken(null)
+    return <Redirect to='/'/>
   }
 
   return (
@@ -68,11 +79,11 @@ const Menu = ({ setToken, result }) => {
                   </NavDropdown>
 
                   <Nav.Link href="#" as="span">
-                    {result.data.currentUser.name} kirjautunut
+                    Olet kirjautunut
                   </Nav.Link>
 
-                  <Button onClick={() => setToken(null)} variant="primary" type="submit">
-                    logout
+                  <Button onClick={() => logout()} variant="primary" type="submit">
+                    kirjaudu ulos
                   </Button>
 
                 </Nav>

@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production node index.js",
-    "watch": "NODE_ENV=development nodemon index.js"
+    "watch": "NODE_ENV=development nodemon index.js",
+    "build:ui": "rm -rf build/ && cd ../workman-front && npm run build && cp -r build ../workman-back"
   },
   "author": "Joni Parpala",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.9.7",
+    "apollo-server": "^2.9.12",
+    "apollo-server-express": "^2.9.12",
     "bcrypt": "^3.0.6",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

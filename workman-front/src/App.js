@@ -7,6 +7,7 @@ import Menu from './components/Menu'
 import LOGIN from './graphql/mutations/login'
 import CURRENT_USER from './graphql/queries/currentUser'
 
+
 const App = () => {
 
   const handleError = (error) => {
@@ -17,6 +18,7 @@ const App = () => {
   const [token, setToken] = useState(null)
 
   const currentUser = useQuery(CURRENT_USER)
+  const client = useApolloClient()
 
   const [login] = useMutation(LOGIN, {
     onError: handleError
