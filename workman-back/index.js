@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken')
 const { ApolloServer } = require('apollo-server-express')
 const mongoose = require('mongoose')
 const express = require('express')
+const cors = require('cors')
 
 const User = require('./models/user')
 const Schema = require('./schema').schema
@@ -20,8 +21,12 @@ mongoose.connect(config.MONGODB_URI, { useNewUrlParser: true })
 const path = '/graphql'
 const app = express()
 
+app.use(cors())
+
 const server = new ApolloServer({
   schema: Schema,
+  playground: true,
+  introspection: true,
   context: async ({ req }) => {
     const auth = req ? req.headers.authorization : null
     if (auth && auth.toLowerCase().startsWith('bearer ')) {
@@ -34,7 +39,7 @@ const server = new ApolloServer({
   }
 })
 
-app.use(express.static('build'))
+//app.use(express.static('build'))
 
 server.applyMiddleware({ app, path })
 
