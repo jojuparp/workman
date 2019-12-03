@@ -19,4 +19,5 @@ Päivä | Aika | Mitä tein
 20.11. | 4 | - Refaktoroitu mutaatioita
 29.11. | 4 | - Refaktoroitu mongo-skeemoja <br> - Selvitetty tapoja SPA-toteutukselle apollo-serverin kanssa
 30.11. | 4 | - Luotu SPA-versio sovelluksesta <br> - Refaktoroitu koodia
+3.12. | 5 | - Sovellus herokuun <br> - Refaktoroitu koodia
 yht. | 73 |
