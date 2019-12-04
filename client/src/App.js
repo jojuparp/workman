@@ -1,5 +1,5 @@
 import React from 'react'
-import { createJob, updateJob } from './reducers/jobReducer'
+import { createJob, updateJob, removeJob } from './reducers/jobReducer'
 
 const App = ({ store }) => {
 
@@ -26,6 +26,10 @@ const App = ({ store }) => {
     store.dispatch(updateJob(updatedJob))
   }
 
+  const deleteJob = job => {
+    store.dispatch(removeJob(job))
+  }
+
   return(
     <div>
       <form onSubmit={addJob}>
@@ -37,6 +41,7 @@ const App = ({ store }) => {
           <li key={job.id}>
             {job.description}
             <button onClick={() => editJob(job)}>edit</button>
+            <button onClick={() => deleteJob(job)}>remove</button>
           </li>
         )}
         </ul>
