@@ -1,26 +1,47 @@
 const generateId = () =>
   Number((Math.random() * 1000000).toFixed(0))
 
-export const jobReducer = (state = [], action) => {
+const initialState = [
+  {
+    id: generateId(),
+    address: "kauppakatu 1",
+    description: "putki rikki",
+    customerName: "aapeli käki",
+    customerPhone: "1203123",
+    users: [],
+    parts: [],
+  },
+
+  {
+    id: generateId(),
+    address: "kauppakatu 1",
+    description: "seinässä reikä",
+    customerName: "aapeli käki",
+    customerPhone: "1203123",
+    users: [],
+    parts: [],
+  }
+]
+
+export const jobReducer = (state = initialState, action) => {
   switch(action.type) {
 
     case 'CREATE_JOB':
       return state.concat(action.data)
 
     case 'UPDATE_JOB':
-      const idToUpdate = action.data.id
-      const jobToUpdate = state.find(j => j.id === idToUpdate)
+      const id = action.data.id
+      const jobToUpdate = state.find(j => j.id === id)
       const updatedJob = {
         id: jobToUpdate.id,
         ...action.data
       }
       return state.map(job =>
-        job.id !== idToUpdate ? job : updatedJob
+        job.id !== jobToUpdate.id ? job : updatedJob
       )
     
     case 'REMOVE_JOB':
       const jobToRemove = action.data.id
-      //const jobToRemove = state.find(j => j.id === idToRemove)
       return state.filter(job =>
         job.id !== jobToRemove
         )
