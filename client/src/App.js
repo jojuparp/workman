@@ -1,64 +1,42 @@
 import React from 'react'
-import { createStore } from 'redux'
+import { createJob, updateJob } from './reducers/jobReducer'
 
-const jobReducer = (state = [], action) => {
-  switch(action.type) {
+const App = ({ store }) => {
 
-    case 'NEW_JOB':
-      return state.concat(action.data)
+  const addJob = event => {
+    event.preventDefault()
+    const job = {
+      address: "kauppakatu 1",
+      description: "kaikki rikki",
+      customerName: "aapeli käki",
+      customerPhone: "2132131",
+      users: [],
+      parts: [],
 
-    case 'EDIT_JOB':
-      const id = action.data.id
-      const noteToChange = state.find(n => n.id === id)
-      const changedNote = { 
-        ...noteToChange, 
-        description: "muutettu" 
-      }
-      return state.map(note =>
-        note.id !== id ? note : changedNote 
-      )
+    }
+    store.dispatch(createJob(job))
+  }
 
-    default:
-      return state
+  const editJob = job => {
     
+    const updatedJob = {
+      ...job,
+      description: "kaikki rikki 2"
+    }
+    store.dispatch(updateJob(updatedJob))
   }
-}
 
-const store = createStore(jobReducer)
-
-store.dispatch({
-  type: 'NEW_JOB',
-  data: {
-    id: 1,
-    users: ["Joni Parpala"],
-    type: "asennustyö",
-    address: "vapaaherrantie 4",
-    customerName: "Seppo Taalasmaa",
-    customerPhone: "03031233",
-    description: "ränni rikki"
-  }
-})
-
-store.dispatch({
-  type: 'NEW_JOB',
-  data: {
-    id: 2,
-    users: ["Joni Parpala"],
-    type: "asennustyö",
-    address: "vapaaherrantie 4",
-    customerName: "Seppo Taalasmaa",
-    customerPhone: "03031233",
-    description: "ränni rikki taas"
-  }
-})
-
-const App = () => {
   return(
     <div>
+      <form onSubmit={addJob}>
+        <button type='submit'>add job</button>
+      </form>
+
       <ul>
         {store.getState().map(job =>
           <li key={job.id}>
             {job.description}
+            <button onClick={() => editJob(job)}>edit</button>
           </li>
         )}
         </ul>
