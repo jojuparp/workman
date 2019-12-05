@@ -1,76 +1,27 @@
-const generateId = () =>
-  Number((Math.random() * 1000000).toFixed(0))
 
-const initialState = [
-  {
-    id: generateId(),
-    name: "Joni Parpala",
-    username: "jojuparp",
-    admin: true
-  },
+export const userReducer = (state = null, action) => {
 
-  {
-    id: generateId(),
-    name: "Seppo Taalasmaa",
-    username: "sepitale",
-    admin: false
-  }
-]
-
-export const userReducer = (state = initialState, action) => {
   switch(action.type) {
-
-    case 'CREATE_USER':
-      return state.concat(action.data)
-
-    case 'UPDATE_USER':
-      const id = action.data.id
-      const userToUpdate = state.find(u => u.id === id)
-      const updatedUser = {
-        id: userToUpdate.id,
-        ...action.data
-      }
-      return state.map(user =>
-        user.id !== userToUpdate.id ? user : updatedUser
-      )
     
-    case 'REMOVE_USER':
-      const userToRemove = action.data.id
-      return state.filter(user =>
-        user.id !== userToRemove
-        )
+    case 'SET_USER':
+      return action.data
 
     default:
       return state
-    
   }
 }
 
-export const createUser = user => {
-
+export const loginAction = user => {
   return {
-    type: 'CREATE_user',
-    data: {
-      ...user,
-      id: generateId()
-    }
+    type: 'SET_USER',
+    data: user
   }
 }
 
-export const updateUser = user => {
+export const logoutAction = () => {
+  window.localStorage.clear()
   return {
-    type: 'UPDATE_user',
-    data: {
-      ...user
-    }
-  }
-}
-
-export const removeUser = user => {
-  return {
-    type: 'REMOVE_user',
-    data: {
-      ...user
-    }
+    type: 'SET_USER',
+    data: null
   }
 }

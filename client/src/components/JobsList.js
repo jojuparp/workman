@@ -2,6 +2,9 @@ import React from 'react'
 
 import { createJob, updateJob, removeJob } from '../reducers/jobReducer'
 
+import VisibilityFilter from '../components/VisibilityFilter'
+import JobsListElement from '../components/JobListElement'
+
 
 const JobsList = ({ store, jobs }) => {
 
@@ -53,20 +56,11 @@ const JobsList = ({ store, jobs }) => {
 
   return (
     <div>
-      <form onSubmit={addJob}>
-        <button type='submit'>add job</button>
-      </form>
+      <VisibilityFilter store={store} />
 
-      <ul>
-        {jobsToShow().map(job => {
-          return (
-          <li key={job.id}>
-            asiakkas: {job.customerName} <br />
-            kuvaus: {job.description} <br />
-          </li>
-          )
-        })}
-      </ul>
+        {jobsToShow().map(job =>
+          <JobsListElement key={job.id} job={job} />
+        )}
     </div>
   )
 }

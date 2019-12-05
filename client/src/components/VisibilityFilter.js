@@ -11,19 +11,20 @@ const VisibilityFilter = ({ store }) => {
 
   return (
     <div>
-      all    
+      Näytä <br />
+      Kaikki  
       <input 
         type="radio" 
         name="filter" 
         onChange={() => filterClicked('ALL')}
-      /> <br />
-      completed 
+      />
+      Valmiit
       <input
         type="radio"
         name="filter"
         onChange={() => filterClicked('COMPLETED')}
-      /> <br />
-      not completed 
+      />
+      Kesken olevat
       <input
         type="radio"
         name="filter"

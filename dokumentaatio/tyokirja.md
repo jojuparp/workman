@@ -21,4 +21,5 @@ Päivä | Aika | Mitä tein
 30.11. | 4 | - Luotu SPA-versio sovelluksesta <br> - Refaktoroitu koodia
 3.12. | 6 | - Sovellus herokuun <br> - Refaktoroitu koodia
 4.12. | 5 | - Refaktoroitu frontedin koodia
-yht. | 84 |
+5.12. | 6 | - Refaktoroitu koodia <br>
+yht. | 86 |

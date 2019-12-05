@@ -43,26 +43,20 @@ export const createJob = job => {
 
   return {
     type: 'CREATE_JOB',
-    data: {
-      ...job,
-    }
+    data: job
   }
 }
 
 export const updateJob = job => {
   return {
     type: 'UPDATE_JOB',
-    data: {
-      ...job
-    }
+    data: job
   }
 }
 
 export const removeJob = job => {
   return {
     type: 'REMOVE_JOB',
-    data: {
-      ...job
-    }
+    data: job
   }
 }
