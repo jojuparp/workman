@@ -1,0 +1,37 @@
+import React from 'react'
+import { setFilter } from '../reducers/filterReducer'
+
+const VisibilityFilter = ({ store }) => {
+
+  const { filter } = store.getState()
+
+  const filterClicked = (value) => {
+    store.dispatch(setFilter(value))
+  }
+
+  return (
+    <div>
+      all    
+      <input 
+        type="radio" 
+        name="filter" 
+        onChange={() => filterClicked('ALL')}
+      /> <br />
+      completed 
+      <input
+        type="radio"
+        name="filter"
+        onChange={() => filterClicked('COMPLETED')}
+      /> <br />
+      not completed 
+      <input
+        type="radio"
+        name="filter"
+        checked={filter === 'NOT_COMPLETED' ? true : false}
+        onChange={() => filterClicked('NOT_COMPLETED')}
+      />
+    </div>
+  )
+}
+
+export default VisibilityFilter

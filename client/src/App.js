@@ -1,17 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-import JobsView from './components/JobsView'
+import JobsList from './components/JobsList'
+import  VisibilityFilter from './components/VisibilityFilter'
+
+import jobService from './services/jobService'
+
+import { initializeJobs } from './reducers/jobReducer'
 
 const App = ({ store }) => {
 
-  const { jobs, users } = store.getState()
+  const { users, jobs } = store.getState()
 
+  useEffect(() => {
+    jobService
+      .get()
+      .then(jobs => store.dispatch(initializeJobs(jobs)))
+      .catch(error => console.log(error))
+  }, [])
+  
   
 
   return(
     <div>
 
-        <JobsView store={store} jobs={jobs} />
+        <VisibilityFilter store={store} />
+        <JobsList store={store} jobs={jobs} />
 
         <ul>
           {users.map(user => 

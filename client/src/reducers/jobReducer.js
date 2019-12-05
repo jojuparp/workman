@@ -1,30 +1,10 @@
-const generateId = () =>
-  Number((Math.random() * 1000000).toFixed(0))
 
-const initialState = [
-  {
-    id: generateId(),
-    address: "kauppakatu 1",
-    description: "putki rikki",
-    customerName: "aapeli käki",
-    customerPhone: "1203123",
-    users: [],
-    parts: [],
-  },
-
-  {
-    id: generateId(),
-    address: "kauppakatu 1",
-    description: "seinässä reikä",
-    customerName: "aapeli käki",
-    customerPhone: "1203123",
-    users: [],
-    parts: [],
-  }
-]
-
-export const jobReducer = (state = initialState, action) => {
+export const jobReducer = (state = [], action) => {
+  
   switch(action.type) {
+
+    case 'INIT_JOBS':
+      return action.data
 
     case 'CREATE_JOB':
       return state.concat(action.data)
@@ -52,13 +32,19 @@ export const jobReducer = (state = initialState, action) => {
   }
 }
 
+export const initializeJobs = jobs => {
+  return {
+    type: 'INIT_JOBS',
+    data: jobs
+  }
+}
+
 export const createJob = job => {
 
   return {
     type: 'CREATE_JOB',
     data: {
       ...job,
-      id: generateId()
     }
   }
 }

@@ -4,12 +4,14 @@ import App from './App'
 import { createStore, combineReducers } from 'redux'
 import { jobReducer } from './reducers/jobReducer'
 import { userReducer } from './reducers/userReducer'
+import { filterReducer } from './reducers/filterReducer'
 import { Provider } from 'react-redux'
 
 
 const reducer = combineReducers({
   jobs: jobReducer,
-  users: userReducer
+  users: userReducer,
+  filter: filterReducer
 })
 
 const store = createStore(reducer)
