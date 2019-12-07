@@ -31,5 +31,5 @@ const update = async (newJob, id) => {
 }
 
 export default {
-  get, setToken, create, update
+  get, setToken, create, update, token
 }

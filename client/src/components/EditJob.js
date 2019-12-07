@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button, Form } from 'react-bootstrap'
+
 import { useField } from '../hooks/index'
 
 const EditJob = ({ store, job }) => {
@@ -69,8 +71,8 @@ const EditJob = ({ store, job }) => {
         <input
           defaultValue={job.parts}
           onChange={parts.onChange}
-        />
-        <button type='submit'>Tallenna tiedot</button>
+        /> <br />
+        <Button variant='primary' type='submit'>Tallenna tiedot</Button>
       </form>
     </div>
   )

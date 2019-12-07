@@ -23,6 +23,7 @@ const JobListElement = ({ store, job }) => {
       Asiakas: {job.customerName} <br />
       Yhteystieto: {job.customerPhone} <br />
       Käyttäjät: {job.users} <br />
+      Osat: {job.parts} <br />
       <Link to={`/tyotehtavat/${job.id}/muokkaa`}>
         <Button variant="primary" type="submit">
           Muokkaa työtehtävää

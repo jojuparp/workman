@@ -35,10 +35,6 @@ const LoginForm = ({ store, user }) => {
     }
   }
 
-  const handleLogout = () => {
-    store.dispatch(logoutAction())
-  }
-
   const login = () => {
 
     return(
@@ -61,18 +57,6 @@ const LoginForm = ({ store, user }) => {
       </div>
     )
   }
-
-  /* const logout = () => {
-
-    return (
-      <div>
-        {user.name} kirjautunut
-        <button onClick={handleLogout}>
-       logout
-        </button>
-      </div>
-    )
-  } */
 
   return(
     <div>

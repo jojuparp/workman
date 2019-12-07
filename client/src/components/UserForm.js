@@ -3,7 +3,7 @@ import { Form, Button } from 'react-bootstrap'
 
 import userService from '../services/userService'
 
-import { updateUser } from '../reducers/usersReducer'
+import { createUser } from '../reducers/usersReducer'
 
 import { useField } from '../hooks/index'
 
@@ -11,6 +11,7 @@ import { useField } from '../hooks/index'
 const UserForm = ({ store }) => {
 
   const nameField = useField('text')
+  const usernameField = useField('text')
   const passwordField = useField('password')
   const confirmPasswordField = useField('password')
 
@@ -24,7 +25,34 @@ const UserForm = ({ store }) => {
   const addUser = async (event) => {
     event.preventDefault()
 
-    console.log('added')
+    if (passwordField.value !== confirmPasswordField.value) {
+      window.alert('salasanat eivät täsmää')
+      passwordField.reset()
+      confirmPasswordField.reset()
+      return
+    }
+
+    const user = {
+      name: nameField.value,
+      username: usernameField.value,
+      password: passwordField.value,
+      admin: isAdmin,
+      jobs: []
+    }
+
+    try {
+
+      const createdUser = await userService.create(user)
+      store.dispatch(createUser(createdUser))
+
+    } catch (exception) {
+      console.log(exception)
+      nameField.reset()
+      passwordField.reset()
+      confirmPasswordField.reset()
+      setIsAdmin(false)
+    }
+
   }
 
   return (
@@ -35,6 +63,11 @@ const UserForm = ({ store }) => {
         <input 
           value={nameField.value}
           onChange={nameField.onChange}
+        /> <br />
+        Käyttäjätunnus:
+        <input 
+          value={usernameField.value}
+          onChange={usernameField.onChange}
         /> <br />
         Salasana:
         <input 
@@ -49,7 +82,12 @@ const UserForm = ({ store }) => {
           onChange={confirmPasswordField.onChange}
         /> <br />
         <Form.Group controlId="formBasicCheckbox">
-          <Form.Check onChange={handleIsAdmin} type="checkbox" label="Käyttäjä on ylläpitäjä" />
+          <Form.Check 
+            onChange={handleIsAdmin}
+            checked={isAdmin ? true : false}
+            type="checkbox"
+            label="Käyttäjä on ylläpitäjä"
+          />
         </Form.Group>
         <Button variant="primary" type="submit">
           Luo käyttäjä

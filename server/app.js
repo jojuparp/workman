@@ -9,6 +9,7 @@ const jobsRouter = require('./controllers/jobs')
 const jobTypesRouter = require('./controllers/jobTypes')
 const loginRouter = require('./controllers/login')
 const usersRouter = require('./controllers/users')
+const partsRouter = require('./controllers/parts')
 
 const middleware = require('./utils/middleware')
 const logger = require('./utils/logger')
@@ -31,6 +32,7 @@ app.use(middleware.tokenExtractor)
 
 app.use('/api/jobs', jobsRouter)
 app.use('/api/jobtypes', jobTypesRouter)
+app.use('/api/parts', partsRouter)
 app.use('/api/users', usersRouter)
 app.use('/api/login', loginRouter)
 
