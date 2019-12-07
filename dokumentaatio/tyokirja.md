@@ -22,4 +22,4 @@ Päivä | Aika | Mitä tein
 3.12. | 6 | - Sovellus herokuun <br> - Refaktoroitu koodia
 4.12. | 5 | - Refaktoroitu frontedin koodia
 5.12. | 6 | - Refaktoroitu koodia <br>
-yht. | 86 |
+yht. | 90 |

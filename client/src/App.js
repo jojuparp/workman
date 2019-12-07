@@ -47,6 +47,7 @@ const App = ({ store }) => {
           store={store}
           jobs={jobs}
           users={users}
+          user={user}
         />}
         
     </div>

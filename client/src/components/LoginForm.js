@@ -62,7 +62,7 @@ const LoginForm = ({ store, user }) => {
     )
   }
 
-  const logout = () => {
+  /* const logout = () => {
 
     return (
       <div>
@@ -72,11 +72,11 @@ const LoginForm = ({ store, user }) => {
         </button>
       </div>
     )
-  }
+  } */
 
   return(
     <div>
-      {!user ? login() : logout()}
+      {!user ? login() : null}
     </div>
   )
 }

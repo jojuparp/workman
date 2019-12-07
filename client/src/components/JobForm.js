@@ -1,7 +1,12 @@
 import React from 'react'
+
+import jobService from '../services/jobService'
+
+import { createJob } from '../reducers/jobReducer'
+
 import { useField } from '../hooks/index'
 
-const EditJob = ({ store, job }) => {
+const JobForm = ({ store }) => {
 
   const type = useField('text')
   const address = useField('text')
@@ -11,69 +16,55 @@ const EditJob = ({ store, job }) => {
   const parts = useField('text')
   const description = useField('text')
 
-  if (!job) return null
-
-
-  const editJob = (event) => {
+  const addJob = (event) => {
     event.preventDefault()
-    
-    console.log('saved')
-  }
-
-  const setUsers = () => {
-
-    return job.users.join(', ')
-  }
-
-  const parseUsers = () => {
-
-    return users.split(', ')
+    console.log('added')
   }
 
   return (
     <div>
-      <h3>Muokkaa työtehtävää {job.id}</h3>
+      <h3>Lisää työtehtävä</h3>
 
-      <form onSubmit={editJob}>
+      <form onSubmit={addJob}>
         Tyyppi:
         <input
-          defaultValue={job.type.name}
+          value={type.value}
           onChange={type.onChange}
         /> <br />
         Kuvaus:
         <input
-          defaultValue={job.description}
+          value={description.value}
           onChange={description.onChange}
         /> <br />
         Osoite:
         <input
-          defaultValue={job.address}
+          value={address.value}
           onChange={address.onChange}
         /> <br />
         Asiakas:
         <input
-          defaultValue={job.customerName}
+          value={customerName.value}
           onChange={customerName.onChange}
         /> <br />
         Yhteystieto:
         <input
-          defaultValue={job.customerPhone}
+          value={customerPhone.value}
           onChange={customerPhone.onChange}
         /> <br />
         Työntekijät:
         <input
-          defaultValue={setUsers()}
+          value={users.value}
           onChange={users.onChange}
         /> <br />
         Osat:
         <input
-          defaultValue={job.parts}
+          defaultValue={parts.value}
           onChange={parts.onChange}
-        />
+        /> <br />
         <button type='submit'>Tallenna tiedot</button>
       </form>
     </div>
   )
 }
 
-export default EditJob
+export default JobForm
