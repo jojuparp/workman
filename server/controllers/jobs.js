@@ -6,7 +6,6 @@ const JobType = require('../models/jobType')
 const User = require('../models/user')
 const Part = require('../models/part')
 
-
 jobsRouter.post('/', async (request, response, next) => {
 
   try {
@@ -19,8 +18,6 @@ jobsRouter.post('/', async (request, response, next) => {
 
     const body = request.body
 
-    //const jobDate = new Date(body.date)
-
     const type = await JobType.findOne({ name: body.type })
 
     const job = new Job({
@@ -29,7 +26,7 @@ jobsRouter.post('/', async (request, response, next) => {
       customerPhone: body.customerPhone,
       address: body.address,
       description: body.description,
-      //date: jobDate,
+      date: body.date,
     })
 
     if (body.users) {
@@ -51,28 +48,25 @@ jobsRouter.post('/', async (request, response, next) => {
   }
 })
 
-
 jobsRouter.get('/', async (request, response, next) => {
 
   const jobs = await Job
     .find({})
     .populate('users', {name: 1, username: 1, admin: 1})
-    .populate('type')
-    .populate('parts')
+    .populate('type', {name: 1})
+    .populate('parts', {name: 1})
   response.json(jobs.map(j => j.toJSON()))
 })
-
 
 jobsRouter.get('/:id', async (request, response, next) => {
 
   const job = await Job
     .findById(request.params.id)
     .populate('users', {name: 1, username: 1, admin: 1})
-    .populate('type')
-    .populate('parts')
+    .populate('type', {name: 1})
+    .populate('parts', {name: 1})
   response.json(job.toJSON())
 })
-
 
 jobsRouter.put('/:id', async (request, response, next) => {
 
@@ -84,16 +78,13 @@ jobsRouter.put('/:id', async (request, response, next) => {
 
   const body = request.body
 
-  //const jobDate = new Date(body.date)
-
   const job = {
     address: body.address,
     description: body.description,
     customerPhone: body.customerPhone,
     customerName: body.customerName,
-    completed: body.completed
-    //date: jobDate,
-
+    completed: body.completed,
+    date: body.date
   }
 
   //update type
@@ -138,8 +129,11 @@ jobsRouter.put('/:id', async (request, response, next) => {
   
   //update document
   try {
-    await Job.findByIdAndUpdate(request.params.id, job, { new: true })
-    response.status(200).end()
+    const updated = await Job.findByIdAndUpdate(request.params.id, job, { new: true })
+      .populate('users', {name: 1})
+      .populate('type', {name: 1})
+      .populate('parts', {name: 1})
+    response.json(updated.toJSON())
   } catch (exception) {
     next(exception)
   }

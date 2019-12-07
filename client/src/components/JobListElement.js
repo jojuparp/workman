@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
 import {
   BrowserRouter as Router,
@@ -15,6 +15,10 @@ const JobListElement = ({ store, job }) => {
     margin: 10
   }
 
+  const assignedUsers = job.users.map(user => user.name)
+  const assignedParts = job.parts.map(part => part.name)
+
+
   return (
     <div style={style}>
 
@@ -22,8 +26,9 @@ const JobListElement = ({ store, job }) => {
       Osoite: {job.address} <br />
       Asiakas: {job.customerName} <br />
       Yhteystieto: {job.customerPhone} <br />
-      Käyttäjät: {job.users} <br />
-      Osat: {job.parts} <br />
+      Asiakas: {job.customerName} <br />
+      Käyttäjät: {assignedUsers.join(', ')} <br />
+      Osat: {assignedParts.join(', ')} <br />
       <Link to={`/tyotehtavat/${job.id}/muokkaa`}>
         <Button variant="primary" type="submit">
           Muokkaa työtehtävää

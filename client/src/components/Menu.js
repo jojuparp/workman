@@ -67,7 +67,7 @@ const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
 
 
         <Route exact path={'/tyotehtavat/:id/muokkaa'} render={({ match }) => 
-          <EditJob store={store} job={jobById(match.params.id)}/>
+          <EditJob store={store} job={jobById(match.params.id)} users={users} parts={parts} jobTypes={jobTypes}/>
         }/>
 
       </Router>

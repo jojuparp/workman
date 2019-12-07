@@ -24,9 +24,13 @@ const create = async newJob => {
 
 const update = async (newJob, id) => {
 
+  const config = {
+    headers: { Authorization: token }
+  }
+
   const url = `${baseUrl}/${id}`
 
-  const response = await axios.put(url, newJob)
+  const response = await axios.put(url, newJob, config)
   return response.data
 }
 

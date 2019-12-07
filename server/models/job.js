@@ -29,8 +29,8 @@ const schema = new mongoose.Schema({
     required: true
   },
   date: {
-    type: Date,
-    //required: true
+    type: String,
+    required: true
   },
   completed: {
     type: Boolean,
