@@ -9,7 +9,7 @@ import { useField } from '../hooks/index'
 
 import jobService from '../services/jobService'
 
-import { updateJob, initializeJobs } from '../reducers/jobReducer'
+import { updateJob } from '../reducers/jobReducer'
 
 const EditJob = ({ store, job, users, parts, jobTypes }) => {
 
@@ -88,12 +88,20 @@ const EditJob = ({ store, job, users, parts, jobTypes }) => {
       const updatedJob = await jobService.update(newJob, job.id)
       store.dispatch(updateJob(updatedJob))
       
+      address.reset()
+      customerName.reset()
+      customerPhone.reset()
+      description.reset()
+      date.reset()
+      setNewUsers([])
+      setType(null)
+      setNewParts([])
       
     } catch (exception) {
       console.log(exception)
     }
 
-    return <Redirect to='/' />
+    return (<Redirect to='/' />)
 
   }
 

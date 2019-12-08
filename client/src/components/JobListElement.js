@@ -5,6 +5,10 @@ import {
   Route, Link, Redirect, withRouter
 } from 'react-router-dom'
 
+import jobService from '../services/jobService'
+
+import { updateJob } from '../reducers/jobReducer'
+
 const JobListElement = ({ store, job }) => {
 
   if (!job) return null
@@ -17,6 +21,39 @@ const JobListElement = ({ store, job }) => {
 
   const assignedUsers = job.users.map(user => user.name)
   const assignedParts = job.parts.map(part => part.name)
+
+  const setJobCompleted = async event => {
+    event.preventDefault()
+
+    console.log(job.type.name)
+
+    const completedJob = {
+      users: [],
+      completed: true,
+      type: job.type.name,
+      address: job.address,
+      customerName: job.customerName,
+      customerPhone: job.customerPhone,
+      description: job.description,
+      parts: job.parts.map(part => part.name)
+    }
+
+    try {
+
+      const updated = await jobService.update(completedJob, job.id)
+      store.dispatch(updateJob(updated))
+
+    } catch (exception) {
+      console.log(exception)
+    }
+  }
+
+  const completeButton = () => {
+    if (job.completed) return null
+    return(
+      <Button onClick={setJobCompleted}>Merkitse työ tehdyksi</Button>
+    )
+  }
 
 
   return (
@@ -34,6 +71,7 @@ const JobListElement = ({ store, job }) => {
           Muokkaa työtehtävää
         </Button>
       </Link>
+      {completeButton()}
 
     </div>
   )

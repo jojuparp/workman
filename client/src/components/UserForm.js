@@ -19,7 +19,6 @@ const UserForm = ({ store }) => {
 
   const handleIsAdmin = () => {
     setIsAdmin(!isAdmin)
-    console.log(isAdmin)
   }
 
   const addUser = async (event) => {

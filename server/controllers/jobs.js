@@ -20,13 +20,14 @@ jobsRouter.post('/', async (request, response, next) => {
 
     const type = await JobType.findOne({ name: body.type })
 
-    const job = new Job({
+    let job = new Job({
       type: type._id,
       customerName: body.customerName,
       customerPhone: body.customerPhone,
       address: body.address,
       description: body.description,
       date: body.date,
+      completed: false
     })
 
     if (body.users) {
@@ -40,8 +41,12 @@ jobsRouter.post('/', async (request, response, next) => {
       })
     }
 
-    const saved = await job.save()
-    response.json(saved.toJSON())
+    await job.save()
+    const toSend = await Job.findById(job.id)
+      .populate('users', {name: 1, username: 1, admin: 1})
+      .populate('type', {name: 1})
+      .populate('parts', {name: 1})
+    response.json(toSend.toJSON())
 
   } catch (exception) {
     next(exception)

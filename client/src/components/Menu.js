@@ -45,6 +45,7 @@ const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
   return(
     <div>
       <Router>
+
         <div>
           <Link style={padding} to='/'>Työtehtävät</Link>
           <Link style={padding} to='/kayttajat'>Käyttäjät</Link>
@@ -61,7 +62,9 @@ const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
         <Route exact path={'/kayttajat'} render={() => <UserList store={store} users={users} />} />
         <Route exact path={'/tehtavatyypit'} render={() => <JobTypeList jobTypes={jobTypes} />} />
         <Route exact path={'/osat'} render={() => <PartList store={store} parts={parts} />} />
-        <Route exact path={'/lisaa/tehtava'} render={() => <JobForm store={store} />} />
+        <Route exact path={'/lisaa/tehtava'} render={() => 
+          <JobForm store={store} jobTypes={jobTypes} users={users} parts={parts} />} />
+          
         <Route exact path={'/lisaa/kayttaja'} render={() => <UserForm store={store} />} />
         <Route exact path={'/lisaa/osa'} render={() => <PartForm store={store} />} />
 

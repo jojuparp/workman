@@ -7,11 +7,17 @@ export const jobReducer = (state = [], action) => {
       return action.data
 
     case 'CREATE_JOB':
-      return state.concat(action.data)
+      const job = {
+        type: action.data.type.name,
+        parts: action.data.parts.map(part => part.name).join(', '),
+        users: action.data.users.map(user => user.name).join(', '),
+        ...action.data
+      }
+      console.log(job)
+      return state.concat(job)
 
     case 'UPDATE_JOB':
       const id = action.data.id
-      console.log(action.data)
       const jobToUpdate = state.find(j => j.id === id)
       const updatedJob = {
         id: jobToUpdate.id,
@@ -52,7 +58,6 @@ export const createJob = job => {
 }
 
 export const updateJob = job => {
-  console.log(job)
   return {
     type: 'UPDATE_JOB',
     data: job
