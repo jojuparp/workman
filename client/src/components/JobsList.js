@@ -10,33 +10,6 @@ const JobsList = ({ store, jobs }) => {
 
   const { filter } = store.getState()
 
-  const addJob = event => {
-    event.preventDefault()
-    const job = {
-      address: "kauppakatu 1",
-      description: "kaikki rikki",
-      customerName: "aapeli käki",
-      customerPhone: "2132131",
-      users: [],
-      parts: [],
-
-    }
-    store.dispatch(createJob(job))
-  }
-
-  const editJob = job => {
-    
-    const updatedJob = {
-      ...job,
-      description: "kaikki rikki 2"
-    }
-    store.dispatch(updateJob(updatedJob))
-  }
-
-  const deleteJob = job => {
-    store.dispatch(removeJob(job))
-  }
-
   const jobsToShow = () => {
 
     if (filter === 'ALL') {
@@ -59,7 +32,7 @@ const JobsList = ({ store, jobs }) => {
       <VisibilityFilter store={store} />
 
         {jobsToShow().map(job =>
-          <JobsListElement key={job.id} job={job} />
+          <JobsListElement key={job.id} job={job} store={store}/>
         )}
     </div>
   )

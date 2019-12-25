@@ -15,9 +15,11 @@ jobTypesRouter.post('/', async (request, response, next) => {
   try {
     const body = request.body
 
+    const hourlyRate = Number(body.hourlyRate)
+
     const jobType = new JobType({
       name: body.name,
-      hourlyRate: body.hourlyRate,
+      hourlyRate: hourlyRate,
     })
 
     const saved = await jobType.save()

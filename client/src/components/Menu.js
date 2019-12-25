@@ -67,7 +67,7 @@ const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
           
         <Route exact path={'/lisaa/kayttaja'} render={() => <UserForm store={store} />} />
         <Route exact path={'/lisaa/osa'} render={() => <PartForm store={store} />} />
-
+        <Route exact path={'/lisaa/tehtavatyyppi'} render={() => <JobTypeForm store={store}/>} />
 
         <Route exact path={'/tyotehtavat/:id/muokkaa'} render={({ match }) => 
           <EditJob store={store} job={jobById(match.params.id)} users={users} parts={parts} jobTypes={jobTypes}/>
