@@ -17,12 +17,14 @@ partsRouter.post('/', async (request, response, next) => {
       return response.status(401).json({ error: 'token missing or invalid' })
     }
 
+  const price = parseFloat(body.price)
+
   try {
     const body = request.body
 
     const part = new Part({
       name: body.name,
-      price: body.price,
+      price: price
     })
 
     const saved = await part.save()

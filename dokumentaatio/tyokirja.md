@@ -24,4 +24,5 @@ Päivä | Aika | Mitä tein
 5.12. | 6 | - Refaktoroitu koodia
 7.12. | 9 | - Lisätty komponentteja <br> - Refaktoroitu koodia
 25.12. | 1 | - Tehtävätyypin lisäys fronttiin
-yht. | 100 |
+17.1. | 1 | - Osan lisäyslomake frontiin
+yht. | 101 |

@@ -44,6 +44,10 @@ const UserForm = ({ store }) => {
       const createdUser = await userService.create(user)
       store.dispatch(createUser(createdUser))
 
+      nameField.reset()
+      passwordField.reset()
+      confirmPasswordField.reset()
+
     } catch (exception) {
       console.log(exception)
       nameField.reset()
