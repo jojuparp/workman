@@ -13,6 +13,10 @@ import { createJob  } from '../reducers/jobReducer'
 
 const JobForm = ({ store, users, parts, jobTypes }) => {
 
+  const clearButtonStyle = {
+    margin: 5
+  }
+
   const [newUsers, setNewUsers] = useState([])
   const [newParts, setNewParts] = useState([])
   const [type, setType] = useState(null)
@@ -71,7 +75,7 @@ const JobForm = ({ store, users, parts, jobTypes }) => {
     if (!newUsers.length) return null
 
     return (
-      <Button onClick={() => setNewUsers([])}>Tyhjennä</Button>
+      <Button style={clearButtonStyle} onClick={() => setNewUsers([])}>Tyhjennä</Button>
     )
   }
 
@@ -80,7 +84,7 @@ const JobForm = ({ store, users, parts, jobTypes }) => {
     if (!newParts.length) return null
 
     return (
-      <Button onClick={() => setNewParts([])}>Tyhjennä</Button>
+      <Button style={clearButtonStyle} onClick={() => setNewParts([])}>Tyhjennä</Button>
     )
   }
 
@@ -89,7 +93,7 @@ const JobForm = ({ store, users, parts, jobTypes }) => {
     if (!type) return null
 
     return (
-      <Button onClick={() => setType(null)}>Tyhjennä</Button>
+      <Button style={clearButtonStyle} onClick={() => setType(null)}>Tyhjennä</Button>
     )
   }
 
@@ -131,61 +135,64 @@ const JobForm = ({ store, users, parts, jobTypes }) => {
   }
 
   return (
-    <div>
+    <div className="container">
       <h3>Lisää työtehtävä</h3>
 
-      <form onSubmit={addJob}>
+      <Form onSubmit={addJob}>
+        <Form.Group>
 
-        Kuvaus:
-        <input
+        <Form.Label>Kuvaus:</Form.Label>
+        <Form.Control as="textarea" rows="3"
           value={description.value}
           onChange={description.onChange}
         /> <br />
-        Osoite:
-        <input
+        <Form.Label>Osoite:</Form.Label>
+        <Form.Control
           value={address.value}
           onChange={address.onChange}
         /> <br />
-        Päivä ja aika:
-        <input
+        <Form.Label>Päivä ja aika:</Form.Label>
+        <Form.Control
           value={date.value}
           onChange={date.onChange}
         /> <br />
-        Asiakas:
-        <input
+        <Form.Label>Asiakas:</Form.Label>
+        <Form.Control
           value={customerName.value}
           onChange={customerName.onChange}
         /> <br />
-        Yhteystieto:
-        <input
+        <Form.Label>Yhteystieto:</Form.Label>
+        <Form.Control
           value={customerPhone.value}
           onChange={customerPhone.onChange}
         /> <br />
-        <div className='row'>
-          <DropdownButton id="dropdown-basic-button" title="Valitse uudet työntekijät">
-            {userChooser()}
-          </DropdownButton>
-          <DropdownButton id="dropdown-basic-button" title="Valitse uudet osat">
-            {partChooser()}
-          </DropdownButton>
-          <DropdownButton id="dropdown-basic-button" title="Valitse uusi tehtävätyyppi">
-            {typeChooser()}
-          </DropdownButton>
-        </div>
+
+        <DropdownButton id="dropdown-basic-button" title="Valitse työntekijät">
+          {userChooser()}
+        </DropdownButton> <br />
+        <DropdownButton id="dropdown-basic-button" title="Valitse osat">
+          {partChooser()} 
+        </DropdownButton> <br />
+        <DropdownButton id="dropdown-basic-button" title="Valitse tehtävätyyppi">
+          {typeChooser()} 
+        </DropdownButton> <br />
         
-        Uudet työntekijät: {newUsers.join(', ')}
+        <Form.Label>Uudet työntekijät: {newUsers.join(', ')}</Form.Label>
         {clearUsersButton()}
         <br />
-        Uudet osat: {newParts.join(', ')}
+        <Form.Label>Uudet osat: {newParts.join(', ')}</Form.Label>
         {clearPartsButton()}
          <br />
-        Tehtävän tyyppi: {type}
+         <Form.Label>Tehtävän tyyppi: {type}</Form.Label>
         {clearTypeButton()}
         <br />
 
-
-        <Button variant='primary' type='submit' onClick={addJob}>Tallenna tiedot</Button>
-      </form>
+        <div className="row">
+        <Button variant='primary' type='submit' style={clearButtonStyle} onClick={addJob}>Tallenna tiedot</Button>
+        <Button variant='primary' type='submit' style={clearButtonStyle} onClick={() => window.location.href="/"}>Peruuta</Button>
+        </div>
+        </Form.Group>
+      </Form>
     </div>
   )
 }

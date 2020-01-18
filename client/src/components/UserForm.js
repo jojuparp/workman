@@ -60,27 +60,28 @@ const UserForm = ({ store }) => {
   }
 
   return (
-    <div>
+    <div className="container">
       <h3>Lisää käyttäjä</h3>
       <Form onSubmit={addUser}>
+      <Form.Group>
         Nimi:
-        <input 
+        <Form.Control 
           value={nameField.value}
           onChange={nameField.onChange}
         /> <br />
-        Käyttäjätunnus:
-        <input 
+        <Form.Label>Käyttäjätunnus:</Form.Label>
+        <Form.Control
           value={usernameField.value}
           onChange={usernameField.onChange}
         /> <br />
-        Salasana:
-        <input 
+        <Form.Label>Salasana:</Form.Label>
+        <Form.Control
           value={passwordField.value}
           type={passwordField.type}
           onChange={passwordField.onChange}
         /> <br />
-        Salasana uudelleen:
-        <input 
+        <Form.Label>Salasana uudelleen:</Form.Label>
+        <Form.Control
           value={confirmPasswordField.value}
           type={confirmPasswordField.type}
           onChange={confirmPasswordField.onChange}
@@ -96,6 +97,7 @@ const UserForm = ({ store }) => {
         <Button variant="primary" type="submit">
           Luo käyttäjä
         </Button>
+        </Form.Group>
       </Form>
     </div>
   )

@@ -34,17 +34,18 @@ const PartForm = ({ store }) => {
   }
 
   return(
-    <div>
+    <div className="container">
       <h3>Lisää uusi osa</h3>
 
       <Form onSubmit={addPart}>
-        Nimi:
-        <input
+        <Form.Group>
+        <Form.Label>Nimi:</Form.Label>
+        <Form.Control
           value={nameField.value}
           onChange={nameField.onChange}
         /> < br/>
-        Hinta:
-        <input
+        <Form.Label>Hinta: (merkitse muodossa: " 21.90 ")</Form.Label>
+        <Form.Control
           value={priceField.value}
           onChange={priceField.onChange}
         /> <br/>
@@ -52,6 +53,7 @@ const PartForm = ({ store }) => {
         <Button variant="primary" type="submit">
           Lisää
         </Button>
+        </Form.Group>
       </Form>
     </div>
   )

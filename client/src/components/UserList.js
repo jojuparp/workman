@@ -6,13 +6,14 @@ const UserList = ({ store, users }) => {
     return users.map(user => {
 
       return (
-        <p key={user.id}>{user.name}</p>
+      <p key={user.id}>{user.name} {user.isAdmin ? ", ylläpitäjä" : null}</p>
       )
     })
   }
 
   return(
     <div>
+      <h3>Käyttäjät:</h3>
       {userRows()}
     </div>
   )

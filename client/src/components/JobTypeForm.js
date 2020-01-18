@@ -33,23 +33,27 @@ const JobTypeForm = ({ store }) => {
   }
 
   return(
-    <div>
+    <div className="container">
       <h3>Lisää työtehtävätyyppi</h3>
 
       <Form onSubmit={addJobType}>
-        Nimi:
-        <input
+
+        <Form.Group>
+        <Form.Label>Nimi:</Form.Label>
+        <Form.Control
           value={nameField.value}
           onChange={nameField.onChange}
         /> <br />
-        Tuntihinta:
-        <input
+        <Form.Label>Tuntihinta:</Form.Label>
+        <Form.Control
           value={priceField.value}
           onChange={priceField.onChange}
-        />
+        /> <br/>
         <Button variant="primary" type="submit">
           Lisää työtehtävätyyppi
         </Button>
+        </Form.Group>
+
       </Form>
 
     </div>

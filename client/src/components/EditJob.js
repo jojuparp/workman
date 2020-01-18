@@ -13,6 +13,10 @@ import { updateJob } from '../reducers/jobReducer'
 
 const EditJob = ({ store, job, users, parts, jobTypes }) => {
 
+  const clearButtonStyle = {
+    margin: 5
+  }
+
   const [newUsers, setNewUsers] = useState([])
   const [newParts, setNewParts] = useState([])
   const [type, setType] = useState(null)
@@ -105,55 +109,91 @@ const EditJob = ({ store, job, users, parts, jobTypes }) => {
 
   }
 
+  const clearUsersButton = () => {
+
+    if (!newUsers.length) return null
+
+    return (
+      <Button style={clearButtonStyle} onClick={() => setNewUsers([])}>Tyhjennä</Button>
+    )
+  }
+
+  const clearPartsButton = () => {
+
+    if (!newParts.length) return null
+
+    return (
+      <Button style={clearButtonStyle} onClick={() => setNewParts([])}>Tyhjennä</Button>
+    )
+  }
+
+  const clearTypeButton = () => {
+
+    if (!type) return null
+
+    return (
+      <Button style={clearButtonStyle} onClick={() => setType(null)}>Tyhjennä</Button>
+    )
+  }
+
   return (
-    <div>
-      <h3>Muokkaa työtehtävää {job.id}</h3>
+    <div className="container">
+      <h3>Muokkaa työtehtävää</h3>
 
-      <form onSubmit={editJob}>
+      <Form onSubmit={editJob}>
+        <Form.Group>
 
-        Kuvaus:
-        <input
+        <Form.Label>Kuvaus:</Form.Label>
+        <Form.Control as="textarea" rows="3"
           value={description.value}
           onChange={description.onChange}
         /> <br />
-        Osoite:
-        <input
+        <Form.Label>Osoite:</Form.Label>
+        <Form.Control
           value={address.value}
           onChange={address.onChange}
         /> <br />
-        Päivä ja aika:
-        <input
+        <Form.Label>Päivä ja aika:</Form.Label>
+        <Form.Control
           value={date.value}
           onChange={date.onChange}
         /> <br />
-        Asiakas:
-        <input
+        <Form.Label>Asiakas:</Form.Label>
+        <Form.Control
           value={customerName.value}
           onChange={customerName.onChange}
         /> <br />
-        Yhteystieto:
-        <input
+        <Form.Label>Yhteystieto:</Form.Label>
+        <Form.Control
           value={customerPhone.value}
           onChange={customerPhone.onChange}
         /> <br />
-        <div className='row'>
-          <DropdownButton id="dropdown-basic-button" title="Valitse uudet työntekijät">
-            {userChooser()}
-          </DropdownButton>
-          <DropdownButton id="dropdown-basic-button" title="Valitse uudet osat">
-            {partChooser()}
-          </DropdownButton>
-          <DropdownButton id="dropdown-basic-button" title="Valitse uusi tehtävätyyppi">
-            {typeChooser()}
-          </DropdownButton>
-        </div>
-        
-        Uudet työntekijät: {newUsers.join(', ')} <br />
-        Uudet osat: {newParts.join(', ')} <br />
-        Tehtävän tyyppi: {type} <br />
 
-        <Button variant='primary' type='submit' onClick={editJob}>Tallenna tiedot</Button>
-      </form>
+        <DropdownButton id="dropdown-basic-button" title="Valitse työntekijät">
+          {userChooser()}
+        </DropdownButton> <br />
+        <DropdownButton id="dropdown-basic-button" title="Valitse osat">
+          {partChooser()} 
+        </DropdownButton> <br />
+        <DropdownButton id="dropdown-basic-button" title="Valitse tehtävätyyppi">
+          {typeChooser()} 
+        </DropdownButton> <br />
+        
+        <Form.Label>Uudet työntekijät: {newUsers.join(', ')}</Form.Label>
+        {clearUsersButton()}
+        <br />
+        <Form.Label>Uudet osat: {newParts.join(', ')}</Form.Label>
+        {clearPartsButton()}
+         <br />
+         <Form.Label>Tehtävän tyyppi: {type}</Form.Label>
+        {clearTypeButton()}
+        <br />
+        <div className="row">
+        <Button variant='primary' type='submit' style={clearButtonStyle} onClick={editJob}>Tallenna tiedot</Button>
+        <Button variant='primary' type='submit' style={clearButtonStyle} onClick={() => window.location.href="/"}>Peruuta</Button>
+        </div>
+        </Form.Group>
+      </Form>
     </div>
   )
 }
