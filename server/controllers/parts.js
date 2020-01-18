@@ -11,16 +11,17 @@ partsRouter.get('/', async (request, response, next) => {
 
 partsRouter.post('/', async (request, response, next) => {
 
-  const decodedToken = jwt.verify(request.token, process.env.SECRET)
-    
-    if (!request.token || !decodedToken.id) {
-      return response.status(401).json({ error: 'token missing or invalid' })
-    }
-
-  const price = parseFloat(body.price)
-
   try {
+
+    // const decodedToken = jwt.verify(request.token, process.env.SECRET)
+    
+    // if (!request.token || !decodedToken.id) {
+    //   return response.status(401).json({ error: 'token missing or invalid' })
+    // }
+
     const body = request.body
+
+    const price = Number(body.price)
 
     const part = new Part({
       name: body.name,

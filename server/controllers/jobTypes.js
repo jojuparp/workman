@@ -13,6 +13,7 @@ jobTypesRouter.get('/', async (request, response, next) => {
 jobTypesRouter.post('/', async (request, response, next) => {
 
   try {
+    
     const body = request.body
 
     const hourlyRate = Number(body.hourlyRate)

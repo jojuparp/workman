@@ -10,6 +10,7 @@ const PartForm = ({ store }) => {
 
   const nameField = useField('text')
   const priceField = useField('text')
+  
 
   const addPart = async event => {
     event.preventDefault()

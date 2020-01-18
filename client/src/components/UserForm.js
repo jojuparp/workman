@@ -45,6 +45,7 @@ const UserForm = ({ store }) => {
       store.dispatch(createUser(createdUser))
 
       nameField.reset()
+      usernameField.reset()
       passwordField.reset()
       confirmPasswordField.reset()
 

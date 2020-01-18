@@ -10,6 +10,8 @@ const get = async () => {
 
 const create = async newPart => {
 
+  console.log(jobService.token)
+
   const config = {
     headers: { Authorization: jobService.token }
   }
