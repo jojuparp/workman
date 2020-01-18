@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button, Form } from 'react-bootstrap'
 
 const JobTypeList = ({ jobTypes }) => {
 
@@ -27,7 +26,7 @@ const JobTypeList = ({ jobTypes }) => {
   }
 
   return (
-    <div>
+    <div className="container">
       <h3>Lista työtehtävätyypeistä</h3>
       {rows()}
     </div>

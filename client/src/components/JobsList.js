@@ -28,7 +28,7 @@ const JobsList = ({ store, jobs }) => {
   }
 
   return (
-    <div>
+    <div className="container">
       <VisibilityFilter store={store} />
 
         {jobsToShow().map(job =>

@@ -177,10 +177,10 @@ const JobForm = ({ store, users, parts, jobTypes }) => {
           {typeChooser()} 
         </DropdownButton> <br />
         
-        <Form.Label>Uudet työntekijät: {newUsers.join(', ')}</Form.Label>
+        <Form.Label>Työntekijät: {newUsers.join(', ')}</Form.Label>
         {clearUsersButton()}
         <br />
-        <Form.Label>Uudet osat: {newParts.join(', ')}</Form.Label>
+        <Form.Label>Osat: {newParts.join(', ')}</Form.Label>
         {clearPartsButton()}
          <br />
          <Form.Label>Tehtävän tyyppi: {type}</Form.Label>

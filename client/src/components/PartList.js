@@ -25,7 +25,7 @@ const PartList = ({ parts }) => {
   }
 
   return (
-    <div>
+    <div className="container">
       <h3>Lista osista</h3>
       {rows()}
     </div>

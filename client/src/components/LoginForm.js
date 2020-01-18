@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button, Form } from 'react-bootstrap'
 
 import { useField } from '../hooks/index'
 import jobService from '../services/jobService'
@@ -38,22 +39,24 @@ const LoginForm = ({ store, user }) => {
   const login = () => {
 
     return(
-      <div>
+      <div className="container">
         <h2>Kirjaudu sisään</h2>
-        <form onSubmit={handleLogin}>
-          Käyttäjätunnus:
-          <input 
+        <Form onSubmit={handleLogin}>
+          <Form.Group>
+          <Form.Label>Käyttäjätunnus:</Form.Label>
+          <Form.Control
             value={un.value}
             onChange={un.onChange}
           /> <br />
-          Salasana:
-          <input
+          <Form.Label>Salasana</Form.Label>
+          <Form.Control
             type={pw.type}
             value={pw.value}
             onChange={pw.onChange}
           /> <br />
-          <button type='submit'>Kirjaudu sisään</button>
-        </form>
+          <Button variant="primary" type='submit'>Kirjaudu sisään</Button>
+          </Form.Group>
+        </Form>
       </div>
     )
   }

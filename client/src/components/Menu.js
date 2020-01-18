@@ -1,7 +1,9 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
+
 import {
   BrowserRouter as Router,
-  Route, Link, Redirect, withRouter
+  Route, Link
 } from 'react-router-dom'
 
 import JobsList from '../components/JobsList'
@@ -16,10 +18,10 @@ import JobTypeForm from '../components/JobTypeForm'
 
 import { logoutAction } from '../reducers/userReducer'
 
-const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
+const Menu = ({ store, jobs, users, jobTypes, parts }) => {
 
   const padding = {
-    padding: 5
+    padding: 10
   }
 
   const jobById = id => {
@@ -33,12 +35,9 @@ const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
   const logout = () => {
 
     return (
-      <div>
-        {user.name} kirjautunut
-        <button onClick={handleLogout}>
+      <Button variant="primary" style={padding} onClick={handleLogout}>
        logout
-        </button>
-      </div>
+      </Button>
     )
   }
 
@@ -46,7 +45,7 @@ const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
     <div>
       <Router>
 
-        <div>
+        <div className="container">
           <Link style={padding} to='/'>Työtehtävät</Link>
           <Link style={padding} to='/kayttajat'>Käyttäjät</Link>
           <Link style={padding} to='/tehtavatyypit'>Työtehtävätyypit</Link>
@@ -59,7 +58,7 @@ const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
         </div>
 
         <Route exact path={'/'} render={() => <JobsList store={store} jobs={jobs} />} />
-        <Route exact path={'/kayttajat'} render={() => <UserList store={store} users={users} />} />
+        <Route exact path={'/kayttajat'} render={() => <UserList users={users} />} />
         <Route exact path={'/tehtavatyypit'} render={() => <JobTypeList jobTypes={jobTypes} />} />
         <Route exact path={'/osat'} render={() => <PartList store={store} parts={parts} />} />
         <Route exact path={'/lisaa/tehtava'} render={() => 
@@ -74,7 +73,6 @@ const Menu = ({ store, jobs, user, users, jobTypes, parts }) => {
         }/>
 
       </Router>
-
     </div>
   )
 }

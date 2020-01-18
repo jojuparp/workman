@@ -2,17 +2,13 @@ import React from 'react'
 
 const UserList = ({ store, users }) => {
 
-  const userRows = () => {
-    return users.map(user => {
-
-      return (
+  const userRows = () =>
+    users.map(user =>
       <p key={user.id}>{user.name} {user.isAdmin ? ", ylläpitäjä" : null}</p>
-      )
-    })
-  }
+    )
 
   return(
-    <div>
+    <div className="container">
       <h3>Käyttäjät:</h3>
       {userRows()}
     </div>
