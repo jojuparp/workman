@@ -17,12 +17,12 @@ Päivä | Aika | Mitä tein
 17.11. | 5 | - Lisätty kyselyjä ja mutaatioita frontendiin
 19.11. | 3 | - Refaktoroitu koodia
 20.11. | 4 | - Refaktoroitu mutaatioita
-29.11. | 4 | - Refaktoroitu mongo-skeemoja <br> - Selvitetty tapoja SPA-toteutukselle apollo-serverin kanssa
+29.11. | 4 | - Refaktoroitu mongo-skeemoja <br> - Refaktoroitu backendiä
 30.11. | 4 | - Luotu SPA-versio sovelluksesta <br> - Refaktoroitu koodia
 3.12. | 6 | - Sovellus herokuun <br> - Refaktoroitu koodia
 4.12. | 5 | - Refaktoroitu frontedin koodia
-5.12. | 6 | - Refaktoroitu koodia
-7.12. | 9 | - Lisätty komponentteja <br> - Refaktoroitu koodia
+5.12. | 6 | - Refaktoroitu backendin koodia
+7.12. | 9 | - Lisätty komponentteja <br> - Refaktoroitu backendin koodia
 25.12. | 1 | - Tehtävätyypin lisäys fronttiin
 17.1. | 1 | - Osan lisäyslomake frontiin
 18.1. | 4 | - Refaktoroitu koodia <br> - Lisätty tyylejä <br> - Projektin viimeistely

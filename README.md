@@ -1,5 +1,7 @@
 ## WorkMan
 
-Sovelluksen avulla pidetään kirjaa työntekijöiden tehdyistä ja tekemättömistä työtehtävistä,  
-työtehtävien tärkeydestä, tyypistä ynnä muusta. Samalla pidetään kirjaa käyetyistä osista.  
-Samalla sovellus tarjoaa yksinkertaiset työkalut työaikakirjanpitoon ja työn laskutukseen.
+Sovelluksen avulla pidetään kirjaa yrityksen ja yrityksen henkilöstön tehdyistä ja tekemättömistä työtehtävistä.
+
+Voit käyttää sovellusta [täältä](https://still-reaches-67638.herokuapp.com) pääkäyttäjän oikeuksilla.
+Käyttäjätunnus: jojuparp
+Salasana: salasana

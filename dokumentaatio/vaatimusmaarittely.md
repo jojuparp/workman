@@ -33,8 +33,7 @@ ks. [nämä kuvat](https://github.com/jojuparp/workman/tree/master/dokumentaatio
 
 ### Jatkokehitysideoita
 
-* Laskun lähettäminen asiakkaan sähköpostiin
-* Lisää käyttöliittymäkieliä
-* Statistiikkanäkymä pääkäyttäjille
-* Kalenterinäkymä työtekijälle
-* Kalenterinäkymä esimiehelle
+* Virheekäsittely käyttäjälle näkyväksi
+* Laskutusmahdollisuus
+* Kalenterinäkymä
+* Varsinnainen toiminnallisuus käyttäjätasoille
